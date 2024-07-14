@@ -7,15 +7,45 @@ export const DATA = {
     url: 'https://vesharma.dev',
     location: 'Vancouver, BC',
     locationLink: 'https://www.google.com/maps/place/vancouver',
-    description: 'Software Developer turned Entrepreneur. I am most active on LinkedIn and Instagram.',
+    description: 'Full-stack & Applied A.I Developer. Technical Leader. Speaker. Community Builder.',
     summary: `I am the co-founder & CTO of Adauris, a B2B SaaS platform that transforms text to audio for publications and content marketers. Adauris has delivered over millions of AI-generated audio listens globally, and empowers publications worldwide.\n\nI'm a full-stack engineering leader with a passion for building awesome SaaS products powered by applied AI. I've had the opportunity to lead talented teams and build systems that scaled to millions of end listeners - always with a focus on delivering amazing user experiences.\n\nI love empowering developers to build amazing things. That's why I'm passionate about developer-centric products, infrastructure, cost optimizationm and building thriving communities.\n\nI'm a big believer in clear communication and collaboration, and I've had some great experiences presenting at conferences like Collision, Google Developer Fest, Vancouver Startup Week, and an avid Google For Startups Voice.`,
     avatarUrl: '/me.jpeg',
-    skills: ['React', 'Next.js', 'Typescript', 'Node.js', 'Python', 'Postgres', 'Docker', 'Kubernetes'],
+    skills: [
+        'React',
+        'Next.js',
+        'Typescript',
+        'Node.js',
+        'Python',
+        'Postgres',
+        'Docker',
+        'Kubernetes',
+        'Express',
+        'Langchain',
+        'Git',
+        'Bash',
+        'oh my zsh',
+        'Bun.sh',
+        'Terraform',
+        'FinOps',
+        'GCP',
+        'Vertex AI',
+        'Cloud Run',
+        'Cloud Functions',
+        'Cloud SQL',
+        'Compute Engine',
+        'Cloud Storage',
+        'AWS',
+        'Bedrock',
+        'ECR',
+        'ECS',
+        'EC2',
+        'RDS'
+    ],
     navbar: [
         { href: '/', icon: HomeIcon, label: 'Home' },
-        { href: '/blog', icon: NotebookIcon, label: 'Blog' },
-        { href: '#', icon: CodeIcon, label: 'Projects' },
-        { href: '#', icon: PencilLine, label: 'Notes' }
+        { href: 'https://medium.com/@ve.exe', icon: NotebookIcon, label: 'Blog' },
+        { href: '#projects', icon: CodeIcon, label: 'Projects' },
+        { href: '#notes', icon: PencilLine, label: 'Notes' }
     ],
     contact: {
         email: 'varun.sharma.exe@gmail.com',
@@ -115,7 +145,7 @@ export const DATA = {
     projects: [
         {
             title: 'Adauris Dashboard Web App',
-            href: 'https://aduris.ai',
+            href: 'https://adauris.ai',
             dates: 'Jan 2023 - Present',
             active: true,
             description: 'Turn written content into high quality audio experiences.',
@@ -144,9 +174,9 @@ export const DATA = {
             technologies: ['GCP', 'AWS', 'MongoDB', 'Firebase', 'Cloud Run', 'Cloud Functions', 'EKS', 'Kubernetes'],
             links: [
                 {
-                    type: 'Website',
-                    href: 'https://llm.report',
-                    icon: <Icons.globe className="size-3" />
+                    type: 'LinkedIn Post',
+                    href: 'https://www.linkedin.com/feed/update/urn:li:activity:7201277013758758912/',
+                    icon: <Icons.linkedin className="size-3" />
                 },
                 {
                     type: 'Source',
