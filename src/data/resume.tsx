@@ -85,7 +85,7 @@ export const DATA = {
             badges: [],
             location: 'Vancouver, BC',
             title: 'CTO & Co-founder',
-            logoUrl: '/adauris_logo_black.jpeg',
+            logoUrl: '/logos/adauris_logo_black.jpeg',
             start: 'Oct 2020',
             end: 'Present',
             description: `Architected and developed a B2B SaaS platform utilizing Next.JS, Node.JS, and Applied A.I transforming written content into engaging audio experiences.
@@ -107,7 +107,7 @@ export const DATA = {
             href: 'https://vesharma.dev',
             location: 'Remote',
             title: 'Full Stack Software Engineer',
-            logoUrl: '/freelance.jpeg',
+            logoUrl: '/logos/freelance.jpeg',
             start: 'March 2020',
             end: 'October 2020',
             description: `- Developed and deployed responsive web applications from conception to completion for diverse clients, utilizing React.JS, Node.JS, Django, and Python.\n\n - Designed and implemented complex backend architectures and database schemas, ensuring scalability and performance.\n\n - Collaborated closely with clients to understand their needs and translate them into effective technical solutions.`
@@ -118,7 +118,7 @@ export const DATA = {
             school: 'The University of British Columbia ',
             href: 'https://www.ubc.ca/',
             degree: `Bachelor's degree in Political Science`,
-            logoUrl: '/ubc-logo.png',
+            logoUrl: '/logos/ubc-logo.png',
             start: '2019',
             end: '2021',
             description: `Activities and Societies: \n\n 
@@ -137,7 +137,7 @@ export const DATA = {
             name: 'Innovation Governance Program - L1  - Council of Canadian Innovators',
             href: 'https://igp.canadianinnovators.org/',
             about: `Training for board membership for high-growth firms within Canada's rapidly expanding innovation economy.`,
-            logoUrl: '/igp_logo.png',
+            logoUrl: '/logos/igp_logo.png',
             start: '2024',
             end: '2024'
         }
@@ -190,12 +190,12 @@ export const DATA = {
     ],
     activities: [
         {
-            title: 'Pannelist for Google for Startups Accelerator: Canada Day 🍁',
+            title: 'Google for Startups Accelerator: Canada Day 🍁 - Pannelist',
             dates: 'June 27th, 2024',
             location: 'Toronto, Ontario',
             description:
                 'Spoke at Google Canada HQ in Toronto about my experience in the Google For Startup Program. Joined by Ashley Francisco, Head of Accelerator & Startup Ecosystem, Americas.',
-            image: '/gfs_logo.png',
+            image: '/logos/gfs_logo.png',
             mlh: 'https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg',
             links: [
                 {
@@ -211,17 +211,52 @@ export const DATA = {
             ]
         },
         {
-            title: 'Men in Tech Panel - Vancouver Startup Week',
-            dates: 'February 3rd - 4th, 2018',
+            title: 'Men in Tech Panel - Vancouver Startup Week - Pannelist',
+            dates: 'May 2024',
             location: 'Vancouver, BC',
             description:
                 'Represented Google For Startups with tryToast.ca to highlight issues in tech with gender discrepancies and help be an ally for women in tech.',
-            image: '/gfs_logo.png',
+            image: '/logos/gfs_logo.png',
             links: [
                 {
                     title: 'LinkedIn Post',
                     icon: <Icons.linkedin className="h-4 w-4" />,
                     href: 'https://www.linkedin.com/posts/aprilhicke_men-in-tech-that-was-the-title-of-the-toast-activity-7204337122210717697-dgxw'
+                }
+            ]
+        },
+        {
+            title: 'TKS Moonshots 2024 - Judge',
+            dates: 'April 2024',
+            location: 'Vancouver, BC',
+            description:
+                'Judged a TKS demo day for their 2024 cohort. The world’s top global accelerator for teens. TKS is a 10-month global innovation program for ambitious high school students ages 13-17.',
+            image: '/logos/tks_logo.jpg',
+            links: [
+                {
+                    title: 'Website',
+                    icon: <Icons.globe className="h-4 w-4" />,
+                    href: 'https://www.tks.world/'
+                }
+            ]
+        },
+        {
+            title: 'Venture for Canada Panel 2024 - Panellist',
+            dates: 'February 2024',
+            location: 'Vancouver, BC',
+            description:
+                'I spoke on a pannel about the founder experience, how to get started, and failures made along the way to a group of young ambitious students. Venture for Canada is a national charity that links interns and recent grads to paid opportunities at Canadian startups and small businesses.',
+            image: '/logos/venture_for_canada_logo.png',
+            links: [
+                {
+                    title: 'Website',
+                    icon: <Icons.globe className="h-4 w-4" />,
+                    href: 'https://ventureforcanada.ca/'
+                },
+                {
+                    title: 'LinkedIn Post',
+                    icon: <Icons.linkedin className="h-4 w-4" />,
+                    href: 'https://www.linkedin.com/feed/update/urn:li:activity:7175604698563903488/'
                 }
             ]
         }
