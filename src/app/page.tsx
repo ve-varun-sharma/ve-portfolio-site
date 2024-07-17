@@ -11,6 +11,7 @@ import Markdown from 'react-markdown';
 import { EmailButton } from '@/components/ui/Buttons/emailButton';
 import { LandingGallery } from '@/components/ui/Galleries/LandingGallery/landingGallery';
 import TypingAnimation from '@/components/magicui/typing-animation';
+import { SkillsCloud } from '@/components/ui/Animations/SkillsCloud/skillsCloud';
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -135,6 +136,12 @@ export default function Page() {
                     </div>
                 </div>
             </section>
+            <section id="skills-cloud">
+                <div className="flex min-h-0 flex-col gap-y-3">
+                    <SkillsCloud />
+                </div>
+            </section>
+
             <section id="projects">
                 <div className="space-y-12 w-full py-12">
                     <BlurFade delay={BLUR_FADE_DELAY * 11}>

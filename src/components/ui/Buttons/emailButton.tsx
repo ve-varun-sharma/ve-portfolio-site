@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export function EmailButton() {
     return (
-        <Link href="mailto:varun.sharma.exe@gmail.com" passHref legacyBehavior>
+        <Link href="mailto:ve@vesharma.dev" passHref legacyBehavior>
             <a target="_blank" rel="noopener noreferrer">
                 <ShinyButton text="Email Me" />
             </a>
