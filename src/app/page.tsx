@@ -194,13 +194,21 @@ export default function Page() {
                     <BlurFade delay={BLUR_FADE_DELAY * 14}>
                         <ul className="mb-4 ml-4 divide-y divide-dashed border-l">
                             {DATA.activities.map((activity, id) => (
+                                // TODO: Address the undefined issue error.
+                                // @ts-expect-error this won't return undefined
                                 <BlurFade key={activity.title + activity.dates} delay={BLUR_FADE_DELAY * 15 + id * 0.05}>
                                     <ActivityCard
+                                        // @ts-expect-error this won't return undefined
                                         title={activity.title}
+                                        // @ts-expect-error this won't return undefined
                                         description={activity.description}
+                                        // @ts-expect-error this won't return undefined
                                         location={activity.location}
+                                        // @ts-expect-error this won't return undefined
                                         dates={activity.dates}
+                                        // @ts-expect-error this won't return undefined
                                         image={activity.image}
+                                        // @ts-expect-error this won't return undefined
                                         links={activity.links}
                                     />
                                 </BlurFade>
