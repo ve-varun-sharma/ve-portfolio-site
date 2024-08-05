@@ -1,5 +1,5 @@
 import { Icons } from '@/components/icons';
-import { CodeIcon, HomeIcon, NotebookIcon, PencilLine } from 'lucide-react';
+import { CodeIcon, HomeIcon, NotebookIcon, MailIcon } from 'lucide-react';
 
 export const DATA = {
     name: 'Ve Sharma',
@@ -7,8 +7,8 @@ export const DATA = {
     url: 'https://vesharma.dev',
     location: 'Vancouver, BC',
     locationLink: 'https://www.google.com/maps/place/vancouver',
-    description: 'Full-stack & Applied A.I Developer. Technical Leader. Speaker. Community Builder.',
-    summary: `I am the co-founder & CTO of Adauris, a B2B SaaS platform that transforms text to audio for publications and content marketers.\n\nI'm a technical leader with skills in full-stack engineering and applied A.I.\n\nAt my first startup, Adauris, here are some milestones I’ve been able to achieve:\n\n- I led and mentored a team of 6 engineers through all stages of the product lifecycle\n\n- Secured funding from top accelerators and venture capitalists, including Antler US, Alliance of Angels, Founders Inc., Front Row Ventures, and Morgan Stanley.\n\n- Reduced GCP Cloud costs by $30,0000 annually through strategic infrastructure optimization and increasing efficient resource management.\n\n- Scaled infrastructure to handle 120,000,000 API requests per month, ensuring high availability and performance for a growing end-listener base.\n\n- Served up audio content to 10+ million end-listeners \n\n- Raised a pre-seed round of $1.3M while responsible for technical due diligence\n\n- Successfully secured over $500,000 in grant funding by leading the technical due diligence for the Scientific Research and Experimental Development Tax incentive. \n\n\n\nI'm passionate about cloud infrastructure, cloud optimization to lower costs, and building innovative AI SaaS products.\n\n\n\nOutside of my main day to day work, I love engaging with the tech and founder community, and I've had some great experiences presenting at conferences like Collision, Vancouver Startup Week, Startupfest, Google Developer Fest, and an avid Google For Startups Voice.`,
+    description: 'Technical Leader. Full-stack & Applied A.I Developer. Speaker. Community Builder.',
+    summary: `I am the co-founder & CTO of Adauris, a B2B SaaS platform that transforms text to audio for publications and content marketers.\n\nI'm a technical leader with skills in full-stack engineering and applied A.I.\n\nAt my first startup, Adauris, here are some milestones I’ve been able to achieve:\n\n- I led and mentored a team of 6 engineers through all stages of the product lifecycle\n\n- Secured funding from top accelerators and venture capitalists, including Antler US, Alliance of Angels, Founders Inc., Front Row Ventures, and Morgan Stanley.\n\n- Reduced GCP Cloud costs by $30,000 annually through strategic infrastructure optimization and increasing efficient resource management.\n\n- Scaled infrastructure to handle 120,000,000 API requests per month, ensuring high availability and performance for a growing end-listener base.\n\n- Served up audio content to 10+ million end-listeners \n\n- Raised a pre-seed round of $1.3M while responsible for technical due diligence\n\n- Successfully secured over $500,000 in grant funding by leading the technical due diligence for the Scientific Research and Experimental Development Tax incentive. \n\n\n\nI'm passionate about cloud infrastructure, cloud optimization to lower costs, and building innovative AI SaaS products.\n\n\n\nOutside of my main day to day work, I love engaging with the tech and founder community, and I've had some great experiences presenting at conferences like Collision, Vancouver Startup Week, Startupfest, Google Developer Fest, and an avid Google For Startups Voice.`,
     avatarUrl: '/me.jpeg',
     skills: [
         'System Architecture',
@@ -57,10 +57,10 @@ export const DATA = {
         { href: '/', icon: HomeIcon, label: 'Home' },
         { href: 'https://medium.com/@ve.exe', icon: NotebookIcon, label: 'Blog' },
         { href: '#projects', icon: CodeIcon, label: 'Projects' },
-        { href: '#notes', icon: PencilLine, label: 'Notes' }
+        { href: 'mailto:ve@vesharma.dev', icon: MailIcon, label: 'Email' }
     ],
     contact: {
-        email: 'varun.sharma.exe@gmail.com',
+        email: 've@vesharma.dev',
         tel: '+4375807573',
         social: {
             GitHub: {
@@ -83,7 +83,7 @@ export const DATA = {
             },
             email: {
                 name: 'Send Email',
-                url: 'mailto:varun.sharma.exe@gmail.com',
+                url: 'mailto:ve@vesharma.dev',
                 icon: Icons.email,
                 navbar: false
             }
@@ -247,6 +247,27 @@ export const DATA = {
         }
     ],
     activities: [
+        {
+            title: 'Google for Startups - Alumni to Alumni: Cloud Cost Cutting Secrets from Ve (Varun) & Dmitriy',
+            dates: 'July 17th, 2024',
+            location: 'Toronto, Ontario 🇨🇦',
+            description:
+                'I shared my expertise on slashing our cloud costs and shared optimization and scaling strategies for a room of 55 CTOs and CEOs.',
+            image: '/logos/gfs_logo.png',
+            mlh: 'https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg',
+            links: [
+                {
+                    title: 'Google For Startups Event Page',
+                    icon: <Icons.globe className="h-4 w-4" />,
+                    href: 'https://rsvp.withgoogle.com/events/na-alumni-event-google-cloud-cost'
+                },
+                {
+                    title: 'Recorded Video',
+                    icon: <Icons.googleDrive className="h-4 w-4" />,
+                    href: 'https://drive.google.com/file/d/1XM4t3dCLw2fkCan47qAtFH_6AmRybLMN/view'
+                }
+            ]
+        },
         {
             title: 'Startupfest - Speaker',
             dates: 'July, 2024',
