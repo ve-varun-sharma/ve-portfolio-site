@@ -30,6 +30,8 @@ export default function BlurFade({
     blur = '6px'
 }: BlurFadeProps) {
     const ref = useRef(null);
+    // @ts-ignore temporarily ignore - this issued occured after an update to a few packages but most importantly to tailwindcss
+    // TODO: Fix type parameter.
     const inViewResult = useInView(ref, { once: true, margin: inViewMargin });
     const isInView = !inView || inViewResult;
     const defaultVariants: Variants = {
