@@ -77,7 +77,7 @@ export const DATA = {
             },
             instagram: {
                 name: 'Instagram',
-                url: 'https://www.instagram.com/ve_.exe/',
+                url: 'https://www.instagram.com/vesharma.dev/',
                 icon: Icons.instagram,
                 navbar: true
             },
