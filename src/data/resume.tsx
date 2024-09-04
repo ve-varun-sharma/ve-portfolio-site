@@ -55,7 +55,7 @@ export const DATA = {
     ],
     navbar: [
         { href: '/', icon: HomeIcon, label: 'Home' },
-        { href: 'https://medium.com/@ve.exe', icon: NotebookIcon, label: 'Blog' },
+        { href: 'https://medium.com/@vesharma.dev', icon: NotebookIcon, label: 'Blog' },
         { href: '#projects', icon: CodeIcon, label: 'Projects' },
         { href: 'mailto:ve@vesharma.dev', icon: MailIcon, label: 'Email' }
     ],
