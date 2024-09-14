@@ -624,25 +624,6 @@ export const DATA = {
             ]
         },
         {
-            title: 'Google Developer Student Group - Delft Netherlands - Speaker',
-            dates: 'January 2024',
-            location: 'Delft, Netherlands 🇳🇱',
-            description: 'Fireside 🔥 chat on going from campus to company! How to Launch your startup out of university.',
-            image: '/logos/gdsc-logo.png',
-            links: [
-                {
-                    title: 'Website',
-                    icon: <Icons.globe className="h-4 w-4" />,
-                    href: 'https://dscdelft.nl/'
-                },
-                {
-                    title: 'LinkedIn Post',
-                    icon: <Icons.linkedin className="h-4 w-4" />,
-                    href: 'https://www.linkedin.com/posts/varun-d-sharma_google-developers-startups-activity-7056707018111209472-XQjR'
-                }
-            ]
-        },
-        {
             title: 'Google Developer Student Group - Delft Technical University - Speaker',
             dates: 'March 2023',
             location: 'Delft, Netherlands 🇳🇱',

@@ -12,10 +12,10 @@ export default function LogoCard() {
                 Ve
             </span> */}
 
-            {theme === 'dark' ? (
-                <Image src="/logos/ve_technologies_dark_mode.png" width={500} height={500} alt="Ve Dark Mode Logo" />
-            ) : (
+            {theme === 'light' ? (
                 <Image src="/logos/ve_technologies_light_mode.png" width={500} height={500} alt="Ve Light Mode Logo" />
+            ) : (
+                <Image src="/logos/ve_technologies_dark_mode.png" width={500} height={500} alt="Ve Dark Mode Logo" />
             )}
 
             <BorderBeam size={250} duration={12} delay={9} />
