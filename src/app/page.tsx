@@ -12,6 +12,7 @@ import { EmailButton } from '@/components/ui/Buttons/emailButton';
 import { LandingGallery } from '@/components/ui/Galleries/LandingGallery/landingGallery';
 import TypingAnimation from '@/components/magicui/typing-animation';
 import { SkillsCloud } from '@/components/ui/Animations/SkillsCloud/skillsCloud';
+import LogoCard from '@/components/ui/Cards/LogoCard/logoCard';
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -217,6 +218,7 @@ export default function Page() {
                     </BlurFade>
                 </div>
             </section>
+            <LogoCard />
             <section id="contact">
                 <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
                     <BlurFade delay={BLUR_FADE_DELAY * 16}>
