@@ -8,7 +8,16 @@ export const DATA = {
     location: 'Vancouver, BC',
     locationLink: 'https://www.google.com/maps/place/vancouver',
     description: 'Technical Leader. Full-stack & Applied A.I Developer. Speaker. Community Builder.',
-    summary: `I am the co-founder & CTO of Adauris, a B2B SaaS platform that transforms text to audio for publications and content marketers.\n\nI'm a technical leader with skills in full-stack engineering and applied A.I.\n\nAt my first startup, Adauris, here are some milestones I’ve been able to achieve:\n\n- I led and mentored a team of 6 engineers through all stages of the product lifecycle\n\n- Secured funding from top accelerators and venture capitalists, including Antler US, Alliance of Angels, Founders Inc., Front Row Ventures, and Morgan Stanley.\n\n- Reduced GCP Cloud costs by $30,000 annually through strategic infrastructure optimization and increasing efficient resource management.\n\n- Scaled infrastructure to handle 120,000,000 API requests per month, ensuring high availability and performance for a growing end-listener base.\n\n- Served up audio content to 10+ million end-listeners \n\n- Raised a pre-seed round of $1.3M while responsible for technical due diligence\n\n- Successfully secured over $500,000 in grant funding by leading the technical due diligence for the Scientific Research and Experimental Development Tax incentive. \n\n\n\nI'm passionate about cloud infrastructure, cloud optimization to lower costs, and building innovative AI SaaS products.\n\n\n\nOutside of my main day to day work, I love engaging with the tech and founder community, and I've had some great experiences presenting at conferences like Collision, Vancouver Startup Week, Startupfest, Google Developer Fest, and an avid Google For Startups Voice.`,
+    summary: `
+    \n\nI am the co-founder of Adauris, a b2b A.I. SaaS company. Adauris is a narration tool for publishers & marketing teams, enabling written content to be instantly transformed into rich audio experiences. 
+
+    \n\nAdauris is backed by some of the top accelerators across North America including the Next36, The League of Innovators, The XX by Wefunder based out of San Francisco, Bay Area, California, and Google For Startups (Cloud Cohort). 
+
+    \n\nA few VCs & micro-funds Adauris is backed by include Alliance of Angels, First Row Partners, Antler US, Cross Cut Ventures, Founders. Inc. and Morgan Stanley.
+
+    \n\nI was previously the CTO for 4 years at Adauris and had transitioned into a senior technical advisory role as of September 2024 to focus on new challenges while the company continues to grow.         
+    
+    \n\nI'm a technical leader with skills in full-stack engineering and applied A.I.\n\nAt my first startup, Adauris, here are some milestones I’ve been able to achieve:\n\n- I led and mentored a team of 6 engineers through all stages of the product lifecycle\n\n- Secured funding from top accelerators and venture capitalists, including Antler US, Alliance of Angels, Founders Inc., Front Row Ventures, and Morgan Stanley.\n\n- Reduced GCP Cloud costs by $30,000 annually through strategic infrastructure optimization and increasing efficient resource management.\n\n- Scaled infrastructure to handle 120,000,000 API requests per month, ensuring high availability and performance for a growing end-listener base.\n\n- Served up audio content to 10+ million end-listeners \n\n- Raised a pre-seed round of $1.3M while responsible for technical due diligence\n\n- Successfully secured over $500,000 in grant funding by leading the technical due diligence for the Scientific Research and Experimental Development Tax incentive. \n\n\n\nI'm passionate about A.I., cloud infrastructure, cloud optimization to lower costs, and defence tech which combines my background in computer & political science where I specialized in security studies.\n\n\n\nOutside of my main day to day work, I love engaging with the tech and founder community, and I've had some great experiences presenting at conferences like Collision, Vancouver Startup Week, Startupfest, Google Developer Fest, and an avid Google For Startups Voice.`,
     avatarUrl: '/me.jpeg',
     skills: [
         'System Architecture',
@@ -248,7 +257,28 @@ export const DATA = {
     ],
     activities: [
         {
-            title: 'Google for Startups - Alumni to Alumni: Cloud Cost Cutting Secrets from Ve (Varun) & Dmitriy',
+            title: "ALL IN A.I. - Canada's Top 100 A.I. Startups - Delegate",
+            dates: 'Sept 11th-12th, 2024',
+            location: 'Montreal, Quebec 🇨🇦',
+            description:
+                "I represented Adauris as one of Canada's top 100 A.I. startups - I had the opportunity to connect with folks from a pool of 3,000 industry participants, including more than 600 members of international delegations from 40 different countries.",
+            image: '/logos/all_in_canada_logo.jpeg',
+            mlh: 'https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg',
+            links: [
+                {
+                    title: 'ALL IN A.I. Website',
+                    icon: <Icons.globe className="h-4 w-4" />,
+                    href: 'https://allinevent.ai/'
+                },
+                {
+                    title: 'LinkedIn Post',
+                    icon: <Icons.linkedin className="h-4 w-4" />,
+                    href: 'https://www.linkedin.com/feed/update/urn:li:activity:7237554608967929856/'
+                }
+            ]
+        },
+        {
+            title: 'Google for Startups - Alumni to Alumni: Cloud Cost Cutting Secrets from Ve (Varun) & Dmitriy - Speaker',
             dates: 'July 17th, 2024',
             location: 'Toronto, Ontario 🇨🇦',
             description:
