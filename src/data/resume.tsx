@@ -105,10 +105,23 @@ export const DATA = {
             href: 'https://adauris.ai',
             badges: [],
             location: 'Vancouver, BC',
-            title: 'CTO & Co-founder',
+            title: 'Senior Technical Advisor & Co-Founder',
+            logoUrl: '/logos/adauris_logo_black.jpeg',
+            start: 'Sept 2020',
+            end: 'Present',
+            description: `
+           Leveraging my deep understanding of the company's technology stack and strategic direction, I provide expert guidance on technical strategy, product development, and industry trends. My focus is on supporting the technical team, fostering innovation, and contributing to the company's long-term success.
+                            `
+        },
+        {
+            company: 'Adauris',
+            href: 'https://adauris.ai',
+            badges: [],
+            location: 'Vancouver, BC',
+            title: 'Chief Technology Officer & Co-Founder',
             logoUrl: '/logos/adauris_logo_black.jpeg',
             start: 'Oct 2020',
-            end: 'Present',
+            end: 'Sept 2024',
             description: `Architected and developed a B2B SaaS platform utilizing Next.JS, Node.JS, and Applied A.I transforming written content into engaging audio experiences.
 
                         \n\n Productionized A.I models for audio narration generation and optimize user listening experience, resulting in a 30% increase in user engagement.
