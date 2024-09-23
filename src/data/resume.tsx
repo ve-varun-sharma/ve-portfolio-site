@@ -266,6 +266,29 @@ export const DATA = {
             ],
             image: '',
             video: 'https://cdn.llm.report/openai-demo.mp4'
+        },
+        {
+            title: 'BlackFinLabs',
+            href: 'https://blackfinlabs.co',
+            dates: 'Sept 2024 - Present',
+            active: true,
+            description:
+                "A Landing page for BlackFin Labs' GCP Cloud Consulting which includes services such as Cost Optimization & A.I implementation.",
+            technologies: ['Next.js', 'ChalkraUI', 'Typescript', 'Firestore', 'Firebase', 'Stripe', 'GCP', 'AWS', 'HugginFace'],
+            links: [
+                {
+                    type: 'Website',
+                    href: 'https://blackfinlabs.co',
+                    icon: <Icons.globe className="size-3" />
+                },
+                {
+                    type: 'Source',
+                    href: 'https://github.com/ve-varun-sharma/blackfinlabs-landing-page',
+                    icon: <Icons.github className="size-3" />
+                }
+            ],
+            image: '',
+            video: 'https://storage.googleapis.com/ve-portfolio-site/ve-portfolio-main-webapp/blackfinlabs-landing-page.mov'
         }
     ],
     activities: [

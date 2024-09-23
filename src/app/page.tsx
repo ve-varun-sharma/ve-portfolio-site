@@ -13,7 +13,6 @@ import { LandingGallery } from '@/components/ui/Galleries/LandingGallery/landing
 import TypingAnimation from '@/components/magicui/typing-animation';
 import { SkillsCloud } from '@/components/ui/Animations/SkillsCloud/skillsCloud';
 import LogoCard from '@/components/ui/Cards/LogoCard/logoCard';
-
 const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
