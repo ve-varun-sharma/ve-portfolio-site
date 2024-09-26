@@ -229,7 +229,7 @@ export const DATA = {
             dates: 'Jan 2023 - Present',
             active: true,
             description: 'Turn written content into high quality audio experiences.',
-            technologies: ['Next.js', 'ChalkraUI', 'Typescript', 'Firestore', 'Firebase', 'Stripe', 'GCP', 'AWS', 'HugginFace'],
+            technologies: ['Next.js', 'ChalkraUI', 'Typescript', 'Firestore', 'Firebase', 'Stripe', 'GCP', 'AWS', 'Vercel', 'Railway'],
             links: [
                 {
                     type: 'Website',
@@ -274,7 +274,7 @@ export const DATA = {
             active: true,
             description:
                 "A Landing page for BlackFin Labs' GCP Cloud Consulting which includes services such as Cost Optimization & A.I implementation.",
-            technologies: ['Next.js', 'ChalkraUI', 'Typescript', 'Firestore', 'Firebase', 'Stripe', 'GCP', 'AWS', 'HugginFace'],
+            technologies: ['Next.js', 'MagicUI', 'Typescript', 'Vercel', 'GCP'],
             links: [
                 {
                     type: 'Website',
