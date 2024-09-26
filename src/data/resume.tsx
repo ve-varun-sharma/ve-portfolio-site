@@ -685,5 +685,197 @@ export const DATA = {
                 }
             ]
         }
+    ],
+    newsArticles: [
+        {
+            title: `Canada's Top 100 A.I Startups selected by ALL IN`,
+            href: 'https://www.linkedin.com/posts/varun-d-sharma_incredibly-excited-to-meet-some-top-ai-minds-activity-7237554608967929856-RuFe',
+            dates: 'September 8, 2024',
+            active: true,
+            description: `"Adauris selected as one of the top 100 A.I startups in Canada. ALL IN is The most important event dedicated to Canadian AI"`,
+            categories: ['ALL IN'],
+            links: [
+                {
+                    type: 'LinkedIn Post',
+                    href: 'https://financialpost.com/pmn/business-wire-news-releases-pmn/morgan-stanley-expands-global-inclusive-ventures-lab-with-largest-single-cohort-of-23-companies',
+                    icon: <Icons.linkedin className="size-3" />
+                }
+            ],
+            image: '/articles/top100_allin.jpeg',
+            video: ''
+        },
+        {
+            title: 'Congratulations to our spring 2024 IGP graduates!"',
+            href: 'https://www.linkedin.com/posts/varun-d-sharma_igp-innovationgovernanceprogram-board-activity-7205987234024534016-YCrt',
+            dates: 'June 12, 2024',
+            active: true,
+            description: `"CCI's Innovation Governance Program equips Canada's current and future business leaders with the tools and experiences they need to help our country's fastest growing companies navigate the intangible economy and scale up globally."`,
+            categories: ['The Globe And Mail'],
+            links: [
+                {
+                    type: 'LinkedIn Post',
+                    href: 'https://www.linkedin.com/posts/varun-d-sharma_igp-innovationgovernanceprogram-board-activity-7205987234024534016-YCrt',
+                    icon: <Icons.linkedin className="size-3" />
+                }
+            ],
+            image: '/articles/globe_and_mail_igpp.jpeg',
+            video: ''
+        },
+
+        {
+            title: 'Watchlist: 10 Vancouver startups set to rocket in 2024',
+            href: 'https://vantechjournal.com/p/10-startups-watchlist-2024',
+            dates: 'January 08, 2024',
+            active: true,
+            description: `"Whether you’re an investor, jobseeker, or local tech enthusiast, find out who to have your eye on in the coming year."`,
+            categories: ['Vancouver Tech Journal'],
+            links: [
+                {
+                    type: 'News Article Link',
+                    href: 'https://vantechjournal.com/p/10-startups-watchlist-2024',
+                    icon: <Icons.globe className="size-3" />
+                },
+                {
+                    type: 'LinkedIn Post',
+                    href: 'https://www.linkedin.com/posts/varun-d-sharma_watchlist-10-vancouver-startups-set-activity-7152738467494481920-dpsJ/',
+                    icon: <Icons.linkedin className="size-3" />
+                }
+            ],
+            image: '/articles/vtj_top_10.png',
+            video: ''
+        },
+
+        {
+            title: 'Adauris, got featured on the NASDAQ in Times Square!"',
+            href: 'https://www.linkedin.com/posts/varun-d-sharma_tech-startups-morganstanley-activity-7162874074875056129-sqEm?utm_source=share&utm_medium=member_desktop',
+            dates: 'February 8, 2024',
+            active: true,
+            description: `"Adauris was features on the main NASDAQ billboard in Times Square, New York City."`,
+            categories: ['NASDAQ'],
+            links: [
+                {
+                    type: 'LinkedIn Post',
+                    href: 'https://www.linkedin.com/posts/varun-d-sharma_tech-startups-morganstanley-activity-7162874074875056129-sqEm?utm_source=share&utm_medium=member_desktop',
+                    icon: <Icons.linkedin className="size-3" />
+                }
+            ],
+            image: '/articles/adauris_timessquare.jpeg',
+            video: ''
+        },
+        {
+            title: 'Transformational or overhyped? How these geeks at Seattle’s giant ‘Founders Bash’ think about AI',
+            href: 'https://www.geekwire.com/2023/transformational-or-overhyped-how-these-geeks-at-seattles-giant-founders-bash-are-thinking-about-ai/',
+            dates: 'September 15, 2023',
+            active: true,
+            description: `"If you were looking for proof that Seattle is an AI hub, you would have found ample evidence on Thursday night at Block 41 in downtown. More than 1,000 entrepreneurs, investors and tech leaders gathered for Founders Bash 2023, a massive meet-up celebrating the region’s innovation sector."`,
+            categories: ['GeekWire'],
+            links: [
+                {
+                    type: 'News Article Link',
+                    href: 'https://www.geekwire.com/2023/transformational-or-overhyped-how-these-geeks-at-seattles-giant-founders-bash-are-thinking-about-ai/',
+                    icon: <Icons.globe className="size-3" />
+                },
+                {
+                    type: 'LinkedIn Post',
+                    href: 'https://www.linkedin.com/posts/varun-d-sharma_i-was-featured-on-geekwire-as-a-activity-7117546495330942976-xIwi',
+                    icon: <Icons.linkedin className="size-3" />
+                }
+            ],
+            image: '/articles/geekwire_ve.jpeg',
+            video: ''
+        },
+        {
+            title: 'Adauris chosen for Morgan Stanley’s Inclusive Ventures Labs',
+            href: 'https://vantechjournal.com/p/adauris-chosen-for-morgan-stanleys',
+            dates: 'September 12, 2023',
+            active: true,
+            description: `"Adauris, a Vancouver-based startup that helps digital publications convert their articles into high-quality audio, has been selected for Morgan Stanely’s prestigious accelerator program, the Inclusive Ventures Lab. The company is one of just 23 businesses chosen from across North America, Europe, the Middle East, and Africa, from a pool of more than 7,900 applicants."`,
+            categories: ['Vancouver Tech Journal'],
+            links: [
+                {
+                    type: 'News Article Link',
+                    href: 'https://vantechjournal.com/p/adauris-chosen-for-morgan-stanleys',
+                    icon: <Icons.globe className="size-3" />
+                },
+                {
+                    type: 'LinkedIn Post',
+                    href: 'https://www.linkedin.com/posts/varun-d-sharma_i-was-featured-on-geekwire-as-a-activity-7117546495330942976-xIwi',
+                    icon: <Icons.linkedin className="size-3" />
+                }
+            ],
+            image: '/articles/ms_vtj.png',
+            video: ''
+        },
+        {
+            title: `TECHTO's Canadian Rocketships`,
+            href: 'https://www.techto.org/rocketships',
+            dates: 'August 10, 2022',
+            active: true,
+            description: `"We’re proud to bring you The 2022 Rocketships List. This list was compiled by Founders, Angels, Entrepreneurs and Canadian Tech Community Members. More than 300 names were submitted, and these were the final selections."`,
+            categories: ['TechTO'],
+            links: [
+                {
+                    type: 'News Article Link',
+                    href: 'https://www.techto.org/rocketships',
+                    icon: <Icons.globe className="size-3" />
+                }
+            ],
+            image: '/articles/tech_to_rocketships.jpeg',
+            video: ''
+        },
+        {
+            title: 'Ad Auris selected for Google’s Cloud Accelerator Canada program',
+            href: 'https://vantechjournal.com/p/ad-auris-google-cloud',
+            dates: 'April 08, 2022',
+            active: true,
+            description: `"The audio creation platform joins 10 other Canadian startups in Google’s second inaugural cohort. Google recently announced the 2022 cohort for its Cloud Accelerator Canada program. Among the batch is Vancouver’s Ad Auris, a platform that helps digital publications to convert their written work into high-quality audio."`,
+            categories: ['Vancouver Tech Journal'],
+            links: [
+                {
+                    type: 'News Article Link',
+                    href: 'https://vantechjournal.com/p/ad-auris-google-cloud',
+                    icon: <Icons.globe className="size-3" />
+                }
+            ],
+            image: '/articles/ltv_top_10.png',
+            video: ''
+        },
+
+        {
+            title: '46 Top Audio Startups and Companies in Canada',
+            href: 'https://beststartup.ca/46-top-audio-startups-and-companies-in-canada/',
+            dates: 'August 7, 2021',
+            active: true,
+            description:
+                'Adauris listed in the top 46 audio companies in Canada. Best Startups Canada chose startups innovating in the Audio industry and picked companies across the size spectrum from cutting edge startups to established brands.',
+            categories: ['Best Startup Canada'],
+            links: [
+                {
+                    type: 'News Article Link',
+                    href: 'https://beststartup.ca/46-top-audio-startups-and-companies-in-canada/',
+                    icon: <Icons.globe className="size-3" />
+                }
+            ],
+            image: '/articles/best_canadian_startups.png',
+            video: ''
+        },
+        {
+            title: 'New York VC - Top 50 Seed/Series A Companies 2021',
+            href: 'https://www.vcnet.nyc/nyc-top-50/january-2021',
+            dates: 'Jan 2021',
+            active: true,
+            description:
+                'Adauris listed  in NYC Top 50 Seed/Series A Companies. The Selection Committee consists of current and former VCs, angel investors, exited entrepreneurs, and Fortune 500 employees in M&A roles. ',
+            categories: ['New York VC'],
+            links: [
+                {
+                    type: 'News Article Link',
+                    href: 'https://www.vcnet.nyc/nyc-top-50/january-2021',
+                    icon: <Icons.globe className="size-3" />
+                }
+            ],
+            image: '/articles/ny_vc_network.png',
+            video: ''
+        }
     ]
 } as const;
