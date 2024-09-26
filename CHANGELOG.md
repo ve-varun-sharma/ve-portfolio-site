@@ -37,3 +37,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
         - postcss 8.4.43
         - tailwindcss 3.4.10
         - typescript 5.5.4
+
+## [0.1.1] - 2024-9-25
+
+### Added
+
+    -  Added news article section with up to date artcle data
+
+### Fixed
+
+    - Addressed typs in projects

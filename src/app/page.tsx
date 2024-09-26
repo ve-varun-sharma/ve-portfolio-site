@@ -1,3 +1,4 @@
+'use client';
 import { ActivityCard } from '@/components/activity-card';
 import BlurFade from '@/components/magicui/blur-fade';
 import BlurFadeText from '@/components/magicui/blur-fade-text';
@@ -13,8 +14,8 @@ import { LandingGallery } from '@/components/ui/Galleries/LandingGallery/landing
 import TypingAnimation from '@/components/magicui/typing-animation';
 import { SkillsCloud } from '@/components/ui/Animations/SkillsCloud/skillsCloud';
 import LogoCard from '@/components/ui/Cards/LogoCard/logoCard';
-const BLUR_FADE_DELAY = 0.04;
 
+const BLUR_FADE_DELAY = 0.04;
 export default function Page() {
     return (
         <main className="flex flex-col min-h-[100dvh] space-y-10">
@@ -223,10 +224,10 @@ export default function Page() {
                     <BlurFade delay={BLUR_FADE_DELAY * 11}>
                         <div className="flex flex-col items-center justify-center space-y-4 text-center">
                             <div className="space-y-2">
-                                <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">New Articles</div>
+                                <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">News Articles</div>
                                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Checkout where I've been featured!</h2>
                                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                                    I've had the pleasure and my previous company being featured in the news.
+                                    Hear what the media is saying about myself and my companies!
                                 </p>
                             </div>
                         </div>
