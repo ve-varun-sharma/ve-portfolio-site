@@ -1,0 +1,26 @@
+# ignore .git and .cache folders
+.git
+.cache
+#Ignore the logs directory
+logs/
+
+#Ignoring the password file
+passwords.txt
+
+#Ignoring all the markdown and class files
+*.md
+**/*.class
+
+.git/
+tests/
+# Ignore Node Modules
+**/modules
+node_modules/
+
+# Ignore docker compose for dev
+npm-debug
+docker-compose*.yml
+docker-compose.yml
+
+# Next items
+.next

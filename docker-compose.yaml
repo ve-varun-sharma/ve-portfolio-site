@@ -1,0 +1,26 @@
+version: "3.7"
+
+services:
+  ve-portfolio-site:
+    container_name: ve-portfolio-site
+    restart: unless-stopped
+    build:
+      context: ./
+      target: production
+      dockerfile: Dockerfile
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+    volumes:
+      - /app/node_modules
+      - ./:/app
+    ports:
+      - 3000:3000
+      - mode: ingress
+        target: 3000
+    expose:
+      - "3000"
+    stdin_open: true
+    deploy:
+      resources:
+        reservations:
+          memory: 1GB
