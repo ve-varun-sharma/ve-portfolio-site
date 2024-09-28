@@ -47,3 +47,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
     - Addressed typs in projects
+
+## [0.1.2] - 2024-9-27
+
+### Added
+
+    -  Added additional news articles
+    -  Added motion hovever for better user focus on activity cards
