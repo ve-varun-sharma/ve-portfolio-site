@@ -14,6 +14,7 @@ import { LandingGallery } from '@/components/ui/Galleries/LandingGallery/landing
 import TypingAnimation from '@/components/magicui/typing-animation';
 import { SkillsCloud } from '@/components/ui/Animations/SkillsCloud/skillsCloud';
 import LogoCard from '@/components/ui/Cards/LogoCard/logoCard';
+import { motion } from 'framer-motion';
 
 const BLUR_FADE_DELAY = 0.04;
 export default function Page() {
@@ -198,20 +199,22 @@ export default function Page() {
                                 // TODO: Address the undefined issue error.
                                 // @ts-expect-error this won't return undefined
                                 <BlurFade key={activity.title + activity.dates} delay={BLUR_FADE_DELAY * 15 + id * 0.05}>
-                                    <ActivityCard
-                                        // @ts-expect-error this won't return undefined
-                                        title={activity.title}
-                                        // @ts-expect-error this won't return undefined
-                                        description={activity.description}
-                                        // @ts-expect-error this won't return undefined
-                                        location={activity.location}
-                                        // @ts-expect-error this won't return undefined
-                                        dates={activity.dates}
-                                        // @ts-expect-error this won't return undefined
-                                        image={activity.image}
-                                        // @ts-expect-error this won't return undefined
-                                        links={activity.links}
-                                    />
+                                    <motion.div whileHover={{ scale: 1.1 }}>
+                                        <ActivityCard
+                                            // @ts-expect-error this won't return undefined
+                                            title={activity.title}
+                                            // @ts-expect-error this won't return undefined
+                                            description={activity.description}
+                                            // @ts-expect-error this won't return undefined
+                                            location={activity.location}
+                                            // @ts-expect-error this won't return undefined
+                                            dates={activity.dates}
+                                            // @ts-expect-error this won't return undefined
+                                            image={activity.image}
+                                            // @ts-expect-error this won't return undefined
+                                            links={activity.links}
+                                        />
+                                    </motion.div>
                                 </BlurFade>
                             ))}
                         </ul>
