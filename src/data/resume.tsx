@@ -841,41 +841,7 @@ export const DATA = {
             image: '/articles/tech_to_rocketships.jpeg',
             video: ''
         },
-        {
-            title: 'Introducing our new cohort of startups for the 2022 Google Cloud Accelerator Canada',
-            href: 'https://cloud.google.com/blog/topics/startups/google-cloud-announces-startups-for-canada-accelerator-cohort',
-            dates: 'March 22, 2022',
-            active: true,
-            description: `"Today, we’re pleased to announce a new class of groundbreaking startups for the Google Cloud Accelerator Canada. This 10-week virtual accelerator brings the best of Google's programs, products, people and technology to startups doing interesting work in the cloud."`,
-            categories: ['Google Cloud'],
-            links: [
-                {
-                    type: 'News Article Link',
-                    href: 'https://cloud.google.com/blog/topics/startups/google-cloud-announces-startups-for-canada-accelerator-cohort',
-                    icon: <Icons.globe className="size-3" />
-                }
-            ],
-            image: '/articles/gfs_2022.jpg',
-            video: ''
-        },
 
-        {
-            title: `TECHTO's Canadian Rocketships`,
-            href: 'https://www.techto.org/rocketships',
-            dates: 'August 10, 2022',
-            active: true,
-            description: `"We’re proud to bring you The 2022 Rocketships List. This list was compiled by Founders, Angels, Entrepreneurs and Canadian Tech Community Members. More than 300 names were submitted, and these were the final selections."`,
-            categories: ['TechTO'],
-            links: [
-                {
-                    type: 'News Article Link',
-                    href: 'https://www.techto.org/rocketships',
-                    icon: <Icons.globe className="size-3" />
-                }
-            ],
-            image: '/articles/tech_to_rocketships.jpeg',
-            video: ''
-        },
         {
             title: 'Ad Auris selected for Google’s Cloud Accelerator Canada program',
             href: 'https://vantechjournal.com/p/ad-auris-google-cloud',
@@ -891,6 +857,23 @@ export const DATA = {
                 }
             ],
             image: '/articles/ltv_top_10.png',
+            video: ''
+        },
+        {
+            title: 'Introducing our new cohort of startups for the 2022 Google Cloud Accelerator Canada',
+            href: 'https://cloud.google.com/blog/topics/startups/google-cloud-announces-startups-for-canada-accelerator-cohort',
+            dates: 'March 22, 2022',
+            active: true,
+            description: `"Today, we’re pleased to announce a new class of groundbreaking startups for the Google Cloud Accelerator Canada. This 10-week virtual accelerator brings the best of Google's programs, products, people and technology to startups doing interesting work in the cloud."`,
+            categories: ['Google Cloud'],
+            links: [
+                {
+                    type: 'News Article Link',
+                    href: 'https://cloud.google.com/blog/topics/startups/google-cloud-announces-startups-for-canada-accelerator-cohort',
+                    icon: <Icons.globe className="size-3" />
+                }
+            ],
+            image: '/articles/gfs_2022.jpg',
             video: ''
         },
 
