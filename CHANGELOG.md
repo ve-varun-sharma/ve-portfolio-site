@@ -60,6 +60,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
     - Integrated client side Posthog Analytics for portfolio site
+    - Add BlackFin Labs to Dock/Navbar
 
 ### Fixed
 
