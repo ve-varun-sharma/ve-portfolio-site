@@ -15,8 +15,10 @@ import TypingAnimation from '@/components/magicui/typing-animation';
 import { SkillsCloud } from '@/components/ui/Animations/SkillsCloud/skillsCloud';
 import LogoCard from '@/components/ui/Cards/LogoCard/logoCard';
 import { motion } from 'framer-motion';
+import posthog from 'posthog-js';
 
 const BLUR_FADE_DELAY = 0.04;
+
 export default function Page() {
     return (
         <main className="flex flex-col min-h-[100dvh] space-y-10">
