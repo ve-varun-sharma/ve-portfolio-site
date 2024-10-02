@@ -293,6 +293,38 @@ export const DATA = {
     ],
     activities: [
         {
+            title: 'League Of Innovators Labs - Making the Most of Founder Communities - Founder Panel #1 - Ve (Varun) Sharma',
+            dates: 'Oct, 1st, 2024',
+            location: 'Toronto, Canada 🇨🇦',
+            description:
+                'As an avid LOI alumni I gave a presentation and fireside chat with my fellow speakers for how the recent LOI Labs Batch 13 cohort can maximize their time in both the Labs program and founder communities as a whole.',
+            image: '/logos/loi_logo.jpg',
+            mlh: 'https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg',
+            links: [
+                {
+                    title: 'LOI Website',
+                    icon: <Icons.globe className="h-4 w-4" />,
+                    href: 'https://www.theleagueofinnovators.org/'
+                }
+            ]
+        },
+        {
+            title: 'Elevate Conference - Google Sponsored Attendee',
+            dates: 'Oct, 1-4, 2024',
+            location: 'Toronto, Canada 🇨🇦',
+            description:
+                'I had the opportunity to connect with world-class innovators, industry leaders, and the tech ecosystem which shine a global spotlight on Canada’s tech and innovation ecosystem.',
+            image: '/logos/elevate_festival_logo_white.jpg',
+            mlh: 'https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg',
+            links: [
+                {
+                    title: 'Elevate Festival Website',
+                    icon: <Icons.globe className="h-4 w-4" />,
+                    href: 'https://elevatefestival.ca/'
+                }
+            ]
+        },
+        {
             title: "ALL IN A.I. - Canada's Top 100 A.I. Startups - Delegate",
             dates: 'Sept 11th-12th, 2024',
             location: 'Montreal, Quebec 🇨🇦',
