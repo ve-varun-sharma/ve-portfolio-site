@@ -54,3 +54,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
     -  Added additional news articles
     -  Added motion hovever for better user focus on activity cards
+
+## [0.2.0] - 2024-9-27
+
+### Added
+
+    - Integrated client side Posthog Analytics for portfolio site
+    - Add BlackFin Labs to Dock/Navbar
+
+### Fixed
+
+    - Navbar external clicks to open in new tab
+    - Updated Resume copy

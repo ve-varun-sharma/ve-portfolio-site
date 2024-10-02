@@ -17,7 +17,7 @@ export const DATA = {
 
     \n\nI was previously the CTO for 4 years at Adauris and had transitioned into a senior technical advisory role as of September 2024 to focus on new challenges while the company continues to grow.         
     
-    \n\nI'm a technical leader with skills in full-stack engineering and applied A.I.\n\nAt my first startup, Adauris, here are some milestones I’ve been able to achieve:\n\n- I led and mentored a team of 6 engineers through all stages of the product lifecycle\n\n- Secured funding from top accelerators and venture capitalists, including Antler US, Alliance of Angels, Founders Inc., Front Row Ventures, and Morgan Stanley.\n\n- Reduced GCP Cloud costs by $30,000 annually through strategic infrastructure optimization and increasing efficient resource management.\n\n- Scaled infrastructure to handle 120,000,000 API requests per month, ensuring high availability and performance for a growing end-listener base.\n\n- Served up audio content to 10+ million end-listeners \n\n- Raised a pre-seed round of $1.3M while responsible for technical due diligence\n\n- Successfully secured over $500,000 in grant funding by leading the technical due diligence for the Scientific Research and Experimental Development Tax incentive. \n\n\n\nI'm passionate about A.I., cloud infrastructure, cloud optimization to lower costs, and defence tech which combines my background in computer & political science where I specialized in security studies.\n\n\n\nOutside of my main day to day work, I love engaging with the tech and founder community, and I've had some great experiences presenting at conferences like Collision, Vancouver Startup Week, Startupfest, Google Developer Fest, and an avid Google For Startups Voice.`,
+    \n\nI'm a technical leader with skills in full-stack engineering and applied A.I.\n\nAt my first startup, Adauris, here are some milestones I’ve been able to achieve:\n\n- I led and mentored a team of 6 engineers through all stages of the product lifecycle\n\n- Secured funding from top accelerators and venture capitalists, including Antler US, Alliance of Angels, Founders Inc., Front Row Ventures, and Morgan Stanley.\n\n- Reduced GCP Cloud costs by $30,000 annually through strategic infrastructure optimization and increasing efficient resource management.\n\n- Scaled infrastructure to handle 120,000,000 API requests per month, ensuring high availability and performance for a growing end-listener base.\n\n- Served up audio content to 10+ million end-listeners \n\n- Raised a pre-seed round of $1.3M while responsible for technical due diligence\n\n- Successfully secured over $750,000 in grant funding including by leading the technical due diligence for the Scientific Research and Experimental Development Tax incentive. \n\n\n\nI'm passionate about A.I., cloud infrastructure, cloud optimization to lower costs, and defence tech which combines my background in computer & political science where I specialized in security studies.\n\n\n\nOutside of my main day to day work, I love engaging with the tech and founder community, and I've had some great experiences presenting at conferences like Collision, Vancouver Startup Week, Startupfest, Google Developer Fest, and an avid Google For Startups Voice.`,
     avatarUrl: '/me.jpeg',
     skills: [
         'System Architecture',
@@ -95,6 +95,12 @@ export const DATA = {
                 url: 'mailto:ve@vesharma.dev',
                 icon: Icons.email,
                 navbar: false
+            },
+            BlackFinLabs: {
+                name: 'Black Fin Labs',
+                url: 'https://blackfinlabs.co',
+                icon: Icons.fish,
+                navbar: true
             }
         }
     },
@@ -132,7 +138,7 @@ export const DATA = {
                         \n\n Served up audio content to 10+ million end-listeners
                         \n\n Decreased initial downtime of 68% of V1 product, to 98%  by V3 of product
                         \n\n Raised a pre-seed round of $1.3M while responsible for technical due diligence
-                        \n\n Successfully secured over half a million dollars in grant funding by leading the technical due diligence for the Scientific Research and Experimental Development Tax incentive.
+                        \n\n Successfully secured opver $750,000 in grant funding including by leading the technical due diligence for the Scientific Research and Experimental Development Tax incentive.
                             `
         },
         {
