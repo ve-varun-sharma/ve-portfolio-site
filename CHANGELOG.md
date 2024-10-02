@@ -66,3 +66,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
     - Navbar external clicks to open in new tab
     - Updated Resume copy
+
+## [0.2.1] - 2024-9-27
+
+### Added
+
+    - Added updated activities with Elevate and LOI
+
+### Fixed
+
+    - Resume external clicks to open in new tab
