@@ -299,6 +299,22 @@ export const DATA = {
     ],
     activities: [
         {
+            title: 'Google AI Connect - Pannelist',
+            dates: 'Oct 3rd, 2024',
+            location: 'Toronto, Ontario 🇨🇦',
+            description:
+                'I had the opportunity to discuss AI & tech public policy at an exclusive roundtable of 10 folks at the Google 🇨🇦 HQ with Google executives, top AI startup founders, and other ecosystem representatives such as the founder of Elevate. This is a personal favourite because I was able to combine my political science and computer science background together!',
+            image: '/logos/gfs_logo.png',
+            mlh: 'https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg',
+            links: [
+                {
+                    title: 'LinkedIn Post',
+                    icon: <Icons.linkedin className="h-4 w-4" />,
+                    href: 'https://www.linkedin.com/posts/varun-d-sharma_tech-ai-publicpolicy-activity-7249137943204798464-LBX3'
+                }
+            ]
+        },
+        {
             title: 'League Of Innovators Labs - Making the Most of Founder Communities - Founder Panel #1 - Ve (Varun) Sharma',
             dates: 'Oct, 1st, 2024',
             location: 'Toronto, Canada 🇨🇦',
