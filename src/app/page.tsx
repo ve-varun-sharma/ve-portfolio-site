@@ -15,7 +15,7 @@ import TypingAnimation from '@/components/magicui/typing-animation';
 import { SkillsCloud } from '@/components/ui/Animations/SkillsCloud/skillsCloud';
 import LogoCard from '@/components/ui/Cards/LogoCard/logoCard';
 import { motion } from 'framer-motion';
-import posthog from 'posthog-js';
+import SocialProof from '@/components/ui/Banners/social-proof';
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -257,7 +257,12 @@ export default function Page() {
                 </div>
             </section>
 
-            <LogoCard />
+            {/* <LogoCard /> */}
+            <section id="backed-by">
+                <BlurFade delay={BLUR_FADE_DELAY * 4}>
+                    <SocialProof />
+                </BlurFade>
+            </section>
             <section id="contact">
                 <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
                     <BlurFade delay={BLUR_FADE_DELAY * 16}>
