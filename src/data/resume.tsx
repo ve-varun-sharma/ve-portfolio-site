@@ -9,7 +9,7 @@ export const DATA = {
     locationLink: 'https://www.google.com/maps/place/vancouver',
     description: 'Technical Leader. Founder. Dev. Speaker. Community Builder.',
     summary: `
-    \n\nI am the co-founder of Adauris, a b2b A.I. SaaS company. Adauris is a narration tool for publishers & marketing teams, enabling written content to be instantly transformed into rich audio experiences. 
+    \n\nI am the co-founder of Adauris, a B2B A.I. SaaS company. Adauris is a narration tool for publishers & marketing teams, enabling written content to be instantly transformed into rich audio experiences. 
 
     \n\nAdauris is backed by some of the top accelerators across North America including the Next36, The League of Innovators, The XX by Wefunder, The C100, and Google For Startups (Cloud Cohort). 
 
