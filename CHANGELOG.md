@@ -76,3 +76,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
     - Resume external clicks to open in new tab
+
+## [0.3.0] - 2024-10-08
+
+### Added
+
+    - Added updated activities with Google
+    - New backed-by social proof section
+    - updated and added new skills to skills cloud
+
+### Fixed
+
+    - adjusted bio copy (WIP)
+    - Rearranged news article section to be closer at the top
+
+### Removed
+
+    - Uneeded Ve Technologies logo at the bottom of the page
