@@ -7,11 +7,11 @@ export const DATA = {
     url: 'https://vesharma.dev',
     location: 'Vancouver, BC',
     locationLink: 'https://www.google.com/maps/place/vancouver',
-    description: 'Technical Leader. Full-stack & Applied A.I Developer. Speaker. Community Builder.',
+    description: 'Technical Leader. Founder. Dev. Speaker. Community Builder.',
     summary: `
     \n\nI am the co-founder of Adauris, a b2b A.I. SaaS company. Adauris is a narration tool for publishers & marketing teams, enabling written content to be instantly transformed into rich audio experiences. 
 
-    \n\nAdauris is backed by some of the top accelerators across North America including the Next36, The League of Innovators, The XX by Wefunder based out of San Francisco, Bay Area, California, and Google For Startups (Cloud Cohort). 
+    \n\nAdauris is backed by some of the top accelerators across North America including the Next36, The League of Innovators, The XX by Wefunder, The C100, and Google For Startups (Cloud Cohort). 
 
     \n\nA few VCs & micro-funds Adauris is backed by include Alliance of Angels, First Row Partners, Antler US, Cross Cut Ventures, Founders. Inc. and Morgan Stanley.
 

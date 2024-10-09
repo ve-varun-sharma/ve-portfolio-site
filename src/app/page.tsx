@@ -35,7 +35,7 @@ export default function Page() {
                             <BlurFade delay={BLUR_FADE_DELAY}>
                                 <TypingAnimation
                                     className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
-                                    text={"Hi, I'm Ve Sharma"}
+                                    text={"Hi, I'm Ve (Varun) Sharma"}
                                 />
                             </BlurFade>
                             <BlurFadeText className="max-w-[600px] md:text-xl" delay={BLUR_FADE_DELAY} text={DATA.description} />
