@@ -7,17 +7,17 @@ export const DATA = {
     url: 'https://vesharma.dev',
     location: 'Vancouver, BC',
     locationLink: 'https://www.google.com/maps/place/vancouver',
-    description: 'Technical Leader. Full-stack & Applied A.I Developer. Speaker. Community Builder.',
+    description: 'Technical Leader. Founder. Dev. Speaker. Community Builder.',
     summary: `
-    \n\nI am the co-founder of Adauris, a b2b A.I. SaaS company. Adauris is a narration tool for publishers & marketing teams, enabling written content to be instantly transformed into rich audio experiences. 
+    \n\nI am the co-founder of Adauris, a B2B A.I. SaaS company. Adauris is a narration tool for publishers & marketing teams, enabling written content to be instantly transformed into rich audio experiences. 
 
-    \n\nAdauris is backed by some of the top accelerators across North America including the Next36, The League of Innovators, The XX by Wefunder based out of San Francisco, Bay Area, California, and Google For Startups (Cloud Cohort). 
+    \n\nAdauris is backed by some of the top accelerators across North America including the Next36, The League of Innovators, The XX by Wefunder, The C100, and Google For Startups (Cloud Cohort). 
 
     \n\nA few VCs & micro-funds Adauris is backed by include Alliance of Angels, First Row Partners, Antler US, Cross Cut Ventures, Founders. Inc. and Morgan Stanley.
 
     \n\nI was previously the CTO for 4 years at Adauris and had transitioned into a senior technical advisory role as of September 2024 to focus on new challenges while the company continues to grow.         
     
-    \n\nI'm a technical leader with skills in full-stack engineering and applied A.I.\n\nAt my first startup, Adauris, here are some milestones I’ve been able to achieve:\n\n- I led and mentored a team of 6 engineers through all stages of the product lifecycle\n\n- Secured funding from top accelerators and venture capitalists, including Antler US, Alliance of Angels, Founders Inc., Front Row Ventures, and Morgan Stanley.\n\n- Reduced GCP Cloud costs by $30,000 annually through strategic infrastructure optimization and increasing efficient resource management.\n\n- Scaled infrastructure to handle 120,000,000 API requests per month, ensuring high availability and performance for a growing end-listener base.\n\n- Served up audio content to 10+ million end-listeners \n\n- Raised a pre-seed round of $1.3M while responsible for technical due diligence\n\n- Successfully secured over $500,000 in grant funding by leading the technical due diligence for the Scientific Research and Experimental Development Tax incentive. \n\n\n\nI'm passionate about A.I., cloud infrastructure, cloud optimization to lower costs, and defence tech which combines my background in computer & political science where I specialized in security studies.\n\n\n\nOutside of my main day to day work, I love engaging with the tech and founder community, and I've had some great experiences presenting at conferences like Collision, Vancouver Startup Week, Startupfest, Google Developer Fest, and an avid Google For Startups Voice.`,
+    \n\nI'm a technical leader with skills in full-stack engineering and applied A.I.\n\nAt my first startup, Adauris, here are some milestones I’ve been able to achieve:\n\n- I led and mentored a team of 6 engineers through all stages of the product lifecycle\n\n- Secured funding from top accelerators and venture capitalists, including Antler US, Alliance of Angels, Founders Inc., Front Row Ventures, and Morgan Stanley.\n\n- Reduced GCP Cloud costs by $30,000 annually through strategic infrastructure optimization and increasing efficient resource management.\n\n- Scaled infrastructure to handle 120,000,000 API requests per month, ensuring high availability and performance for a growing end-listener base.\n\n- Served up audio content to 10+ million end-listeners \n\n- Raised a pre-seed round of $1.3M while responsible for technical due diligence\n\n- Successfully secured over $750,000 in grant funding including by leading the technical due diligence for the Scientific Research and Experimental Development Tax incentive. \n\n\n\nI'm passionate about A.I., cloud infrastructure, cloud optimization to lower costs, and defence tech which combines my background in computer & political science where I specialized in security studies.\n\n\n\nOutside of my main day to day work, I love engaging with the tech and founder community, and I've had some great experiences presenting at conferences like Collision, Vancouver Startup Week, Startupfest, Google Developer Fest, and an avid Google For Startups Voice.`,
     avatarUrl: '/me.jpeg',
     skills: [
         'System Architecture',
@@ -95,6 +95,12 @@ export const DATA = {
                 url: 'mailto:ve@vesharma.dev',
                 icon: Icons.email,
                 navbar: false
+            },
+            BlackFinLabs: {
+                name: 'Black Fin Labs',
+                url: 'https://blackfinlabs.co',
+                icon: Icons.fish,
+                navbar: true
             }
         }
     },
@@ -132,7 +138,7 @@ export const DATA = {
                         \n\n Served up audio content to 10+ million end-listeners
                         \n\n Decreased initial downtime of 68% of V1 product, to 98%  by V3 of product
                         \n\n Raised a pre-seed round of $1.3M while responsible for technical due diligence
-                        \n\n Successfully secured over half a million dollars in grant funding by leading the technical due diligence for the Scientific Research and Experimental Development Tax incentive.
+                        \n\n Successfully secured opver $750,000 in grant funding including by leading the technical due diligence for the Scientific Research and Experimental Development Tax incentive.
                             `
         },
         {
@@ -292,6 +298,54 @@ export const DATA = {
         }
     ],
     activities: [
+        {
+            title: 'Google AI Connect - Pannelist',
+            dates: 'Oct 3rd, 2024',
+            location: 'Toronto, Ontario 🇨🇦',
+            description:
+                'I had the opportunity to discuss AI & tech public policy at an exclusive roundtable of 10 folks at the Google 🇨🇦 HQ with Google executives, top AI startup founders, and other ecosystem representatives such as the founder of Elevate. This is a personal favourite because I was able to combine my political science and computer science background together!',
+            image: '/logos/gfs_logo.png',
+            mlh: 'https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg',
+            links: [
+                {
+                    title: 'LinkedIn Post',
+                    icon: <Icons.linkedin className="h-4 w-4" />,
+                    href: 'https://www.linkedin.com/posts/varun-d-sharma_tech-ai-publicpolicy-activity-7249137943204798464-LBX3'
+                }
+            ]
+        },
+        {
+            title: 'League Of Innovators Labs - Making the Most of Founder Communities - Founder Panel #1 - Ve (Varun) Sharma',
+            dates: 'Oct, 1st, 2024',
+            location: 'Toronto, Canada 🇨🇦',
+            description:
+                'As an avid LOI alumni I gave a presentation and fireside chat with my fellow speakers for how the recent LOI Labs Batch 13 cohort can maximize their time in both the Labs program and founder communities as a whole.',
+            image: '/logos/loi_logo.jpg',
+            mlh: 'https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg',
+            links: [
+                {
+                    title: 'LOI Website',
+                    icon: <Icons.globe className="h-4 w-4" />,
+                    href: 'https://www.theleagueofinnovators.org/'
+                }
+            ]
+        },
+        {
+            title: 'Elevate Conference - Google Sponsored Attendee',
+            dates: 'Oct, 1-4, 2024',
+            location: 'Toronto, Canada 🇨🇦',
+            description:
+                'I had the opportunity to connect with world-class innovators, industry leaders, and the tech ecosystem which shine a global spotlight on Canada’s tech and innovation ecosystem.',
+            image: '/logos/elevate_festival_logo_white.jpg',
+            mlh: 'https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg',
+            links: [
+                {
+                    title: 'Elevate Festival Website',
+                    icon: <Icons.globe className="h-4 w-4" />,
+                    href: 'https://elevatefestival.ca/'
+                }
+            ]
+        },
         {
             title: "ALL IN A.I. - Canada's Top 100 A.I. Startups - Delegate",
             dates: 'Sept 11th-12th, 2024',

@@ -54,3 +54,42 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
     -  Added additional news articles
     -  Added motion hovever for better user focus on activity cards
+
+## [0.2.0] - 2024-9-27
+
+### Added
+
+    - Integrated client side Posthog Analytics for portfolio site
+    - Add BlackFin Labs to Dock/Navbar
+
+### Fixed
+
+    - Navbar external clicks to open in new tab
+    - Updated Resume copy
+
+## [0.2.1] - 2024-9-27
+
+### Added
+
+    - Added updated activities with Elevate and LOI
+
+### Fixed
+
+    - Resume external clicks to open in new tab
+
+## [0.3.0] - 2024-10-08
+
+### Added
+
+    - Added updated activities with Google
+    - New backed-by social proof section
+    - updated and added new skills to skills cloud
+
+### Fixed
+
+    - adjusted bio copy (WIP)
+    - Rearranged news article section to be closer at the top
+
+### Removed
+
+    - Uneeded Ve Technologies logo at the bottom of the page

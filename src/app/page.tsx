@@ -15,8 +15,10 @@ import TypingAnimation from '@/components/magicui/typing-animation';
 import { SkillsCloud } from '@/components/ui/Animations/SkillsCloud/skillsCloud';
 import LogoCard from '@/components/ui/Cards/LogoCard/logoCard';
 import { motion } from 'framer-motion';
+import SocialProof from '@/components/ui/Banners/social-proof';
 
 const BLUR_FADE_DELAY = 0.04;
+
 export default function Page() {
     return (
         <main className="flex flex-col min-h-[100dvh] space-y-10">
@@ -33,7 +35,7 @@ export default function Page() {
                             <BlurFade delay={BLUR_FADE_DELAY}>
                                 <TypingAnimation
                                     className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
-                                    text={"Hi, I'm Ve Sharma"}
+                                    text={"Hi, I'm Ve (Varun) Sharma"}
                                 />
                             </BlurFade>
                             <BlurFadeText className="max-w-[600px] md:text-xl" delay={BLUR_FADE_DELAY} text={DATA.description} />
@@ -144,6 +146,39 @@ export default function Page() {
                 </div>
             </section>
 
+            <section id="news-articles">
+                <div className="space-y-12 w-full py-12">
+                    <BlurFade delay={BLUR_FADE_DELAY * 11}>
+                        <div className="flex flex-col items-center justify-center space-y-4 text-center">
+                            <div className="space-y-2">
+                                <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">News Articles</div>
+                                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Checkout where I've been featured!</h2>
+                                <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                                    Hear what the media is saying about myself and my companies!
+                                </p>
+                            </div>
+                        </div>
+                    </BlurFade>
+                    <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto">
+                        {DATA.newsArticles.map((project, id) => (
+                            <BlurFade key={project.title} delay={BLUR_FADE_DELAY * 12 + id * 0.05}>
+                                <ProjectCard
+                                    href={project.href}
+                                    key={project.title}
+                                    title={project.title}
+                                    description={project.description}
+                                    dates={project.dates}
+                                    tags={project.categories}
+                                    image={project.image}
+                                    video={project.video}
+                                    links={project.links}
+                                />
+                            </BlurFade>
+                        ))}
+                    </div>
+                </div>
+            </section>
+
             <section id="projects">
                 <div className="space-y-12 w-full py-12">
                     <BlurFade delay={BLUR_FADE_DELAY * 11}>
@@ -152,8 +187,8 @@ export default function Page() {
                                 <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">My Projects</div>
                                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Check out my latest work</h2>
                                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                                    I&apos;ve worked on a variety of projects, from simple websites to complex web applications. Here are a few of my
-                                    favorites.
+                                    I&apos;ve worked on a variety of projects, from simple websites to full-stack web applications, and cloud
+                                    optimization. Here are a few of my favorites.
                                 </p>
                             </div>
                         </div>
@@ -222,39 +257,12 @@ export default function Page() {
                 </div>
             </section>
 
-            <section id="news-articles">
-                <div className="space-y-12 w-full py-12">
-                    <BlurFade delay={BLUR_FADE_DELAY * 11}>
-                        <div className="flex flex-col items-center justify-center space-y-4 text-center">
-                            <div className="space-y-2">
-                                <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">News Articles</div>
-                                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Checkout where I've been featured!</h2>
-                                <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                                    Hear what the media is saying about myself and my companies!
-                                </p>
-                            </div>
-                        </div>
-                    </BlurFade>
-                    <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto">
-                        {DATA.newsArticles.map((project, id) => (
-                            <BlurFade key={project.title} delay={BLUR_FADE_DELAY * 12 + id * 0.05}>
-                                <ProjectCard
-                                    href={project.href}
-                                    key={project.title}
-                                    title={project.title}
-                                    description={project.description}
-                                    dates={project.dates}
-                                    tags={project.categories}
-                                    image={project.image}
-                                    video={project.video}
-                                    links={project.links}
-                                />
-                            </BlurFade>
-                        ))}
-                    </div>
-                </div>
+            {/* <LogoCard /> */}
+            <section id="backed-by">
+                <BlurFade delay={BLUR_FADE_DELAY * 4}>
+                    <SocialProof />
+                </BlurFade>
             </section>
-            <LogoCard />
             <section id="contact">
                 <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
                     <BlurFade delay={BLUR_FADE_DELAY * 16}>
