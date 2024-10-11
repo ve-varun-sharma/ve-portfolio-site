@@ -37,3 +37,31 @@ This is a portfolio site for Ve to highlight his technical career and progress. 
     ```
 
 5. Open the [Config file](./src/data/resume.tsx) and make changes
+
+## Using Docker
+
+To use docker, build the local app from the Dockerfile, and run it as such.
+Use the no cache flag if you want to hard start building the app. I recommend this especially when making package or dependency changes. Otherwise if you're rebuilding the app from code changes I recommend usin the default build option.
+
+    ```bash
+    docker build --no-cache -t ve-app .
+    docker build -t ve-app .
+    docker run ve-app
+
+    ```
+
+## Deploying an image to GCP Artifact Registry
+
+These steps depend on building the app successfully first with docker, then tagging the image, and then pushing it to GCP artifact registry.
+
+    ```bash
+
+        gcloud auth login
+
+        docker tag ve-app gcr.io/experimental-learning/ve-app:latest
+
+        docker tag ve-app gcr.io/experimentation-learning/ve-app:latest
+
+        docker push gcr.io/experimentation-learning/ve-app:latest
+
+    ```
