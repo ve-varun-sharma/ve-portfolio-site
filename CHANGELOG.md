@@ -93,3 +93,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Removed
 
     - Uneeded Ve Technologies logo at the bottom of the page
+
+## [0.4.0] - 2024-10-11
+
+### Added
+
+    - Integrated docker with Next.JS app
+    - New IaaC with Terraform for GCP
