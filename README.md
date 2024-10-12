@@ -15,13 +15,13 @@ This is a portfolio site for Ve to highlight his technical career and progress. 
 1. Clone this repository to your local machine:
 
     ```bash
-    git clone https://github.com/dillionverma/portfolio
+    git clone https://github.com/...
     ```
 
 2. Move to the cloned directory
 
     ```bash
-    cd portfolio
+    cd <FOLDER_NAME>
     ```
 
 3. Install dependencies:
@@ -65,3 +65,38 @@ These steps depend on building the app successfully first with docker, then tagg
         docker push gcr.io/experimentation-learning/ve-app:latest
 
     ```
+
+## Using Terraform
+
+````bash
+
+     # Initialization:
+
+    terraform init
+    # Initializes a new Terraform project, downloading necessary providers.
+    terraform plan
+    # Creates an execution plan, showing the changes that will be made to your infrastructure.
+    terraform apply
+    # Applies the changes defined in the execution plan, creating or modifying resources.
+    terraform destroy
+    # Destroys the resources defined in your configuration.
+
+    # State Management:
+
+    terraform state list
+    # Lists the resources managed by Terraform.
+    terraform state show
+    # Shows details about a specific resource.
+    terraform state pull
+    # Pulls the current Terraform state from a remote backend.
+    terraform state push
+    # Pushes the current Terraform state to a remote backend.
+
+# Other Commands:
+
+    terraform output
+    # Displays the values of defined outputs.
+    terraform validate
+    # Validates the syntax and structure of your Terraform configuration.
+   ```
+````
