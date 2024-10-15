@@ -112,7 +112,7 @@ export const DATA = {
             location: 'Vancouver, BC',
             title: 'Senior Technical Advisor & Co-Founder',
             logoUrl: '/logos/adauris_logo_black.jpeg',
-            start: 'Sept 2020',
+            start: 'Sept 2024',
             end: 'Present',
             description: `
            Leveraging my deep understanding of the company's technology stack and strategic direction, I provide expert guidance on technical strategy, product development, and industry trends. My focus is on supporting the technical team, fostering innovation, and contributing to the company's long-term success.
