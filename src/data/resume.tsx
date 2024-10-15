@@ -8,16 +8,15 @@ export const DATA = {
     location: 'Vancouver, BC',
     locationLink: 'https://www.google.com/maps/place/vancouver',
     description: 'Technical Leader. Founder. Dev. Speaker. Community Builder.',
-    summary: `
-    \n\nI am the co-founder of Adauris, a B2B A.I. SaaS company. Adauris is a narration tool for publishers & marketing teams, enabling written content to be instantly transformed into rich audio experiences. 
-
-    \n\nAdauris is backed by some of the top accelerators across North America including the Next36, The League of Innovators, The XX by Wefunder, The C100, and Google For Startups (Cloud Cohort). 
-
-    \n\nA few VCs & micro-funds Adauris is backed by include Alliance of Angels, First Row Partners, Antler US, Cross Cut Ventures, Founders. Inc. and Morgan Stanley.
-
-    \n\nI was previously the CTO for 4 years at Adauris and had transitioned into a senior technical advisory role as of September 2024 to focus on new challenges while the company continues to grow.         
-    
-    \n\nI'm a technical leader with skills in full-stack engineering and applied A.I.\n\nAt my first startup, Adauris, here are some milestones I’ve been able to achieve:\n\n- I led and mentored a team of 6 engineers through all stages of the product lifecycle\n\n- Secured funding from top accelerators and venture capitalists, including Antler US, Alliance of Angels, Founders Inc., Front Row Ventures, and Morgan Stanley.\n\n- Reduced GCP Cloud costs by $30,000 annually through strategic infrastructure optimization and increasing efficient resource management.\n\n- Scaled infrastructure to handle 120,000,000 API requests per month, ensuring high availability and performance for a growing end-listener base.\n\n- Served up audio content to 10+ million end-listeners \n\n- Raised a pre-seed round of $1.3M while responsible for technical due diligence\n\n- Successfully secured over $750,000 in grant funding including by leading the technical due diligence for the Scientific Research and Experimental Development Tax incentive. \n\n\n\nI'm passionate about A.I., cloud infrastructure, cloud optimization to lower costs, and defence tech which combines my background in computer & political science where I specialized in security studies.\n\n\n\nOutside of my main day to day work, I love engaging with the tech and founder community, and I've had some great experiences presenting at conferences like Collision, Vancouver Startup Week, Startupfest, Google Developer Fest, and an avid Google For Startups Voice.`,
+    summary: `What happens when you combine a computer scientist's mind with a political scientist's heart? For Ve, it sparks a vision for a future where technology is a force for good, empowering individuals and communities alike  
+    \n\nAs co-founder &
+    CTO of Adauris, he built a B2B SaaS platform from the ground up, securing over $2M in total funding and scaling to
+    serve millions of end-users. 
+    \n\nHis experience spans cloud architecture, full stack development, applied A.I., and
+    leading high-performing teams, all while navigating the competitive startup landscape with proven success,
+    including acceptance into prestigious accelerator programs like Morgan Stanley, Google for Startups, and The XX - all with 1% acceptance rates. 
+    \n\nVe is an avid speaker, sharing his insights at industry events like Collision Conf, Van Startup Week, GDG, and Google.
+    \n\n Outside of building companies, his unique background bridging computer science and political science fuels his passion for exploring the evolving relationship between technology and policy.`,
     avatarUrl: '/me.jpeg',
     skills: [
         'System Architecture',
