@@ -34,11 +34,11 @@ export default function Page() {
                             /> */}
                             <BlurFade delay={BLUR_FADE_DELAY}>
                                 <TypingAnimation
-                                    className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
+                                    className="text-3xl text-left font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
                                     text={"Hi, I'm Ve (Varun) Sharma"}
                                 />
                             </BlurFade>
-                            <BlurFadeText className="max-w-[600px] md:text-xl" delay={BLUR_FADE_DELAY} text={DATA.description} />
+                            <BlurFadeText className="max-w-[600px] md:text-xl " delay={BLUR_FADE_DELAY} text={DATA.description} />
                         </div>
                         <BlurFade delay={BLUR_FADE_DELAY}>
                             <Avatar className="size-28 border">

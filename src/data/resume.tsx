@@ -1,5 +1,5 @@
 import { Icons } from '@/components/icons';
-import { CodeIcon, HomeIcon, NotebookIcon, MailIcon } from 'lucide-react';
+import { CodeIcon, HomeIcon, NotebookIcon, MailIcon, FileText } from 'lucide-react';
 
 export const DATA = {
     name: 'Ve Sharma',
@@ -71,6 +71,12 @@ export const DATA = {
         email: 've@vesharma.dev',
         tel: '+4375807573',
         social: {
+            Resume: {
+                name: 'Resume',
+                url: 'https://storage.googleapis.com/ve-portfolio-site/resume/ve_resume%20copy.pdf',
+                icon: FileText,
+                navbar: false
+            },
             GitHub: {
                 name: 'GitHub',
                 url: 'https://github.com/ve-varun-sharma',
