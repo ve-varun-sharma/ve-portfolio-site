@@ -5,7 +5,7 @@ export const DATA = {
     name: 'Ve Sharma',
     initials: 'VS',
     url: 'https://vesharma.dev',
-    location: 'Vancouver, BC',
+    location: 'Vancouver, British Columbia',
     locationLink: 'https://www.google.com/maps/place/vancouver',
     description: 'Technical Leader. Founder. Dev. Speaker. Community Builder.',
     summary: `What happens when you combine a computer scientist's mind with a political scientist's heart? For Ve, it sparks a vision for a future where technology is a force for good, empowering individuals and communities alike  
@@ -115,7 +115,7 @@ export const DATA = {
             company: 'Adauris',
             href: 'https://adauris.ai',
             badges: [],
-            location: 'Vancouver, BC',
+            location: 'Vancouver, British Columbia',
             title: 'Senior Technical Advisor & Co-Founder',
             logoUrl: '/logos/adauris_logo_black.jpeg',
             start: 'Sept 2024',
@@ -128,7 +128,7 @@ export const DATA = {
             company: 'Adauris',
             href: 'https://adauris.ai',
             badges: [],
-            location: 'Vancouver, BC',
+            location: 'Vancouver, British Columbia',
             title: 'Chief Technology Officer & Co-Founder',
             logoUrl: '/logos/adauris_logo_black.jpeg',
             start: 'Oct 2020',
@@ -304,6 +304,22 @@ export const DATA = {
     ],
     activities: [
         {
+            title: 'Vancouver AI Summit <> GDG YVR - Speaker',
+            dates: 'Nov 1-2, 2024',
+            location: 'Vancouver, British Columbia 🇨🇦',
+            description:
+                'I hosted a session on the main stage tackling AI cost optimization, specifically, LLM + tokenization costs 💰 🤑, which can be a major hurdle 🔥 for growth stage startups and developers!',
+            image: '/logos/gdsc-logo.png',
+            mlh: 'https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg',
+            links: [
+                {
+                    title: 'LinkedIn Post',
+                    icon: <Icons.linkedin className="h-4 w-4" />,
+                    href: 'https://www.linkedin.com/posts/varun-d-sharma_ai-aicostoptimization-gemini-activity-7259265437861859329-AUh0'
+                }
+            ]
+        },
+        {
             title: 'Google AI Connect - Pannelist',
             dates: 'Oct 3rd, 2024',
             location: 'Toronto, Ontario 🇨🇦',
@@ -443,7 +459,7 @@ export const DATA = {
         {
             title: 'Men in Tech Panel - Vancouver Startup Week - Speaker',
             dates: 'May 2024',
-            location: 'Vancouver, BC 🇨🇦',
+            location: 'Vancouver, British Columbia 🇨🇦',
             description:
                 'Represented Google For Startups with tryToast.ca to highlight issues in tech with gender discrepancies and help be an ally for women in tech.',
             image: '/logos/gfs_logo.png',
@@ -516,7 +532,7 @@ export const DATA = {
         {
             title: 'TKS Moonshots - Judge',
             dates: 'April 2024',
-            location: 'Vancouver, BC 🇨🇦',
+            location: 'Vancouver, British Columbia 🇨🇦',
             description:
                 'Judged a TKS demo day for their 2024 cohort. The world’s top global accelerator for teens. TKS is a 10-month global innovation program for ambitious high school students ages 13-17.',
             image: '/logos/tks_logo.jpg',
@@ -531,7 +547,7 @@ export const DATA = {
         {
             title: 'Venture for Canada Panel - Speaker',
             dates: 'February 2024',
-            location: 'Vancouver, BC 🇨🇦',
+            location: 'Vancouver, British Columbia 🇨🇦',
             description:
                 'I spoke on a pannel about the founder experience, how to get started, and failures made along the way to a group of young ambitious students. Venture for Canada is a national charity that links interns and recent grads to paid opportunities at Canadian startups and small businesses.',
             image: '/logos/venture_for_canada_logo.png',
@@ -551,7 +567,7 @@ export const DATA = {
         {
             title: 'UBC Imprint Conference - Speaker',
             dates: 'January 2024',
-            location: 'Vancouver, BC 🇨🇦',
+            location: 'Vancouver, British Columbia 🇨🇦',
             description:
                 "Shared the journey of entrepreneurship as a student starting my own company while at university myself to an audience of business & marketing students. UBC Imprint Conference is UBC Sauder Business School's marketing conference. ",
             image: '/logos/ubcimprint_logo.jpeg',
@@ -571,7 +587,7 @@ export const DATA = {
         {
             title: 'Google Developer Student Group - UBC - Speaker',
             dates: 'January 2024',
-            location: 'Vancouver, BC 🇨🇦',
+            location: 'Vancouver, British Columbia 🇨🇦',
             description:
                 '💭🔥 Fireside Chat Session. I talked about my journey as a founder and CTO, and ways to become an entrepreneur, even as a student. ',
             image: '/logos/gdsc-logo.png',
@@ -592,7 +608,7 @@ export const DATA = {
         {
             title: 'Google Developer Fest - Burnaby - Speaker',
             dates: 'January 2024',
-            location: 'Vancouver, BC 🇨🇦',
+            location: 'Vancouver, British Columbia 🇨🇦',
             description: `I was part of an awesome panel discussion on "Conscious Leadership: How Can We Support Gender Equality in Tech. I was on this panel with: 🌟Dean Guest - Principal Managing Partner @ Workday, 🌟 Edmund Lee - Senior Technology Manager @ lululemon, 🌟 Martin Wulff - Senior Manager II @ Electronic Arts (EA)`,
             image: '/logos/gdsc-logo.png',
             links: [
@@ -611,7 +627,7 @@ export const DATA = {
         {
             title: 'Google Developer Fest - Vancouver - Speaker',
             dates: 'Februrary 2024',
-            location: 'Vancouver, BC 🇨🇦',
+            location: 'Vancouver, British Columbia 🇨🇦',
             description: `Topic: How to go from 0-100,000 end users per month. The art of moving fast and scaling well with GCP. I discussed strategies for startups to move fast and scale effectively on Google Cloud Platform (GCP).`,
             image: '/logos/gdsc-logo.png',
             links: [
@@ -630,7 +646,7 @@ export const DATA = {
         {
             title: 'UBC The Art Entrepreneurship 2023 - Speaker',
             dates: 'November 2023',
-            location: 'Vancouver, BC 🇨🇦',
+            location: 'Vancouver, British Columbia 🇨🇦',
             description: `I spoke to UBC students about how to get into entrepreneurship as an arts student, and how to break into tech as an arts student.`,
             image: '/logos/ubc-logo.png',
             links: [
@@ -668,7 +684,7 @@ export const DATA = {
         {
             title: 'Google Developer Fest - Vancouver - Speaker',
             dates: 'October 2023',
-            location: 'Vancouver, BC 🇨🇦',
+            location: 'Vancouver, British Columbia 🇨🇦',
             description: `I had the opportunity to speak at Google i/o Vancouver! 
                 🔥 My topic: Cracking the Code: Selling Your AI Startup's MVP Without Writing a Line of Code. 
                 During the event, I shared our journey of selling our very first A.I.-based SaaS product to the Central Bank of India - and the best part? We achieved this without writing a single line of code! 🚀 `,
@@ -727,7 +743,7 @@ export const DATA = {
         {
             title: 'Google Developer Fest - Vancouver - Speaker',
             dates: 'November 2022',
-            location: 'Vancouver, BC 🇨🇦',
+            location: 'Vancouver, British Columbia 🇨🇦',
             description: `I had the opportunity being a speaker at @googledevs fest Vancouver!
                             My topic was How to raise your first million💰 as an early stage startup 🚀!`,
             image: '/logos/gdsc-logo.png',
