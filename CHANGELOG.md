@@ -108,3 +108,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
     - Shortened main bio for easier readibility
     - Inversed navbar dock colors so that the nav bar stands out and users can see it
     - Tech advisor role year typo change.
+
+## [0.4.2] - 2024-11-16
+
+### Added
+
+-   New activities
+
+### Fixed
+
+-   Cleaned up Nav bar
