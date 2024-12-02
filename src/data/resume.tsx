@@ -304,6 +304,43 @@ export const DATA = {
     ],
     activities: [
         {
+            title: 'Google Developer Fest - Burnaby - Speaker',
+            dates: 'Nov 30, 2024',
+            location: 'Vancouver, British Columbia 🇨🇦',
+            description: 'I hosted a V2 session on AI cost optimization, specifically, LLM + tokenization costs 💰 🤑!',
+            image: '/logos/gdsc-logo.png',
+            mlh: 'https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg',
+            links: [
+                {
+                    title: 'LinkedIn Post',
+                    icon: <Icons.linkedin className="h-4 w-4" />,
+                    href: 'https://www.linkedin.com/posts/varun-d-sharma_ai-aicostoptimization-gemini-activity-7259265437861859329-AUh0'
+                }
+            ]
+        },
+        {
+            title: 'Google for Startups Alumni Summit - Panelist',
+            dates: 'Nov 20 - 22, 2024',
+            location: 'Spruce Goose Hangar in Playa Vista, California 🇺🇸',
+            description:
+                'I attended the inaugural Google for startups alumni summit, and was a panelist on the Airship discussing the topic of "Generative AI Track -  AI-Powered Cost Optimization: Strategies for Efficiency and Success"',
+            image: '/logos/gfs_logo.png',
+            mlh: 'https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg',
+            links: [
+                {
+                    title: 'Google For Startups Alumni Event Page',
+                    icon: <Icons.globe className="h-4 w-4" />,
+                    href: 'https://rsvp.withgoogle.com/events/alumni_summit_2024'
+                },
+                {
+                    title: 'LinkedIn Post',
+                    icon: <Icons.linkedin className="h-4 w-4" />,
+                    href: 'https://www.linkedin.com/posts/varun-d-sharma_google-startups-soogler-activity-7267246367767486464-liTh'
+                }
+            ]
+        },
+
+        {
             title: 'Vancouver AI Summit <> GDG YVR - Speaker',
             dates: 'Nov 1-2, 2024',
             location: 'Vancouver, British Columbia 🇨🇦',
