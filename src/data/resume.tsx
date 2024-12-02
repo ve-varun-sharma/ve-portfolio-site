@@ -314,7 +314,7 @@ export const DATA = {
                 {
                     title: 'LinkedIn Post',
                     icon: <Icons.linkedin className="h-4 w-4" />,
-                    href: 'https://www.linkedin.com/posts/varun-d-sharma_ai-aicostoptimization-gemini-activity-7259265437861859329-AUh0'
+                    href: 'https://www.linkedin.com/posts/gdgburnaby_devfest2024-aioptimized-llm-activity-7258608425352273920-FPGm'
                 }
             ]
         },
