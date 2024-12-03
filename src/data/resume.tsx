@@ -8,15 +8,15 @@ export const DATA = {
     location: 'Vancouver, British Columbia',
     locationLink: 'https://www.google.com/maps/place/vancouver',
     description: 'Technical Leader. Founder. Dev. Speaker. Community Builder.',
-    summary: `What happens when you combine a computer scientist's mind with a political scientist's heart? For Ve, it sparks a vision for a future where technology is a force for good, empowering individuals and communities alike  
-    \n\nAs co-founder &
-    CTO of Adauris, he built a B2B SaaS platform from the ground up, securing over $2M in total funding and scaling to
-    serve millions of end-users. 
+    summary: `As co-founder & CTO of Adauris, he built a B2B SaaS platform from the ground up, securing over $2M in total funding and scaling to
+    serve millions of end-users/listeners. 
+     \n\n All IN AI listed his last startup, Adauris, as [one of the top 100 A.I. startups in Canada](https://www.linkedin.com/posts/varun-d-sharma_incredibly-excited-to-meet-some-top-ai-minds-activity-7237554608967929856-RuFe/). 
+
     \n\nHis experience spans cloud architecture, full stack development, applied A.I., and
-    leading high-performing teams, all while navigating the competitive startup landscape with proven success,
-    including acceptance into prestigious accelerator programs like Morgan Stanley, Google for Startups, and The XX - all with 1% acceptance rates. 
-    \n\nVe is an avid speaker, sharing his insights at industry events like Collision Conf, Van Startup Week, GDG, and Google.
-    \n\n Outside of building companies, his unique background bridging computer science and political science fuels his passion for exploring the evolving relationship between technology and policy.`,
+    leading high-performing teams.\nAll while navigating the competitive startup landscape with proven success,
+    including acceptance into prestigious accelerator programs like [Morgan Stanley (and being listed on the NASDAQ in times Square!🤩)](https://www.linkedin.com/posts/varun-d-sharma_tech-startups-morganstanley-activity-7162874074875056129-sqEm/), Google for Startups, and The XX - all with 1% acceptance rates. 
+    \n\nVe continues to be an [ecosystem voice for Google](https://youtu.be/8yzOpUHH78c?t=2557), Collision Conf, the League of Innovators, and other organizations speaking on topics around A.I, Cloud Infrastructure, and technical entrepreneurship around North America. 
+`,
     avatarUrl: '/me.jpeg',
     skills: [
         'System Architecture',
