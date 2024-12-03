@@ -112,6 +112,21 @@ export const DATA = {
 
     experience: [
         {
+            company: 'BlackFin Labs',
+            href: 'https://blackfinlabs.co',
+            badges: [],
+            location: 'Vancouver, British Columbia',
+            title: 'Fractional CTO',
+            logoUrl: '/logos/Blackfin_labs_v2_logo_and_name.png',
+            start: 'Oct 2024',
+            end: 'Present',
+            description: `
+            Oversaw & developed an A.I. MVP for a health tech startup proving out the value proposition of the tech & leading to new B2B partnerships.
+Delivered an A.I powered mining data cleaning solution using Gemini 1.5 to a mineral exploration corporation.
+Diagnosed and resolved scaling issues impacting a scale-up startup's Cloud SQL and Kubernetes cluster. Recommendations achieved high uptime and low latency for over 20 million daily Cloud SQL calls. Further, I provided cost-saving recommendations to reduce their cloud costs by 30%.
+            `
+        },
+        {
             company: 'Adauris',
             href: 'https://adauris.ai',
             badges: [],
@@ -201,7 +216,19 @@ export const DATA = {
             logoUrl: '/logos/freelance.jpeg',
             start: 'March 2020',
             end: 'October 2020',
-            description: `- Developed and deployed responsive web applications from conception to completion for diverse clients, utilizing React.JS, Node.JS, Django, and Python.\n\n - Designed and implemented complex backend architectures and database schemas, ensuring scalability and performance.\n\n - Collaborated closely with clients to understand their needs and translate them into effective technical solutions.`
+            description: `Developed and deployed responsive web applications from conception to completion for diverse clients, utilizing React.JS, Node.JS, Django, and Python.\n\n - Designed and implemented complex backend architectures and database schemas, ensuring scalability and performance.\n\n - Collaborated closely with clients to understand their needs and translate them into effective technical solutions.`
+        },
+        {
+            company: 'UBCMUN',
+            badges: [],
+            href: 'https://vesharma.dev',
+            location: 'Remote',
+            title: 'Director General',
+            logoUrl: '/logos/ubcmun.jpeg',
+            start: 'Feb 2020',
+            end: 'Jan 2021',
+            description: `UBCMUN is the largest and most prestigious university model United Nations conference in Western Canada. Led and managed a staff of 20+ across 7 teams and a secretariat of 15, ensuring successful planning of the conference with over 1000 delegates.
+                        \n\nImplemented new programs resulting in 25% higher pre-registration rates. `
         }
     ],
     education: [
