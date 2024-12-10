@@ -89,6 +89,12 @@ export const DATA = {
                 icon: Icons.linkedin,
                 navbar: true
             },
+            x: {
+                name: 'x',
+                url: 'https://x.com/vevarunsharma',
+                icon: Icons.x,
+                navbar: true
+            },
             instagram: {
                 name: 'Instagram',
                 url: 'https://www.instagram.com/vesharma.dev/',
