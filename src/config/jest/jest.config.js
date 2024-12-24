@@ -13,7 +13,8 @@ module.exports = {
         '\\.(css|less|scss|sss|styl)$': '<rootDir>/node_modules/identity-obj-proxy',
         '^@components(.*)$': '<rootDir>/components$1',
         '^@pages(.*)$': '<rootDir>/pages$1',
-        '^@hooks(.*)$': '<rootDir>/context/hooks$1'
+        '^@hooks(.*)$': '<rootDir>/context/hooks$1',
+        '^@/(.*)$': '<rootDir>/src/$1' // Maps '@/...' to 'src/...'
     },
     verbose: true,
     collectCoverage: true,
@@ -21,5 +22,6 @@ module.exports = {
     testPathIgnorePatterns: ['<rootDir>/cypress/integration'],
     // ignore cypress
     modulePathIgnorePatterns: ['./cypress'],
-    transformIgnorePatterns: [`node_modules/(?!(?:.pnpm/)?(${esmModules.join('|')}))`]
+    transformIgnorePatterns: [`node_modules/(?!(?:.pnpm/)?(${esmModules.join('|')}))`],
+    testEnvironment: 'jsdom'
 };

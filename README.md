@@ -101,6 +101,12 @@ These steps depend on building the app successfully first with docker, then tagg
    ```
 ````
 
+## Testing
+
+-   https://stackoverflow.com/questions/69227566/consider-using-the-jsdom-test-environment
+-   https://stackoverflow.com/questions/72013449/upgrading-jest-to-v29-error-test-environment-jest-environment-jsdom-cannot-be
+-   https://stackoverflow.com/questions/57861187/property-tobeinthedocument-does-not-exist-on-type-matchersany
+
 ## TODO
 
 -   Add testing to the app using jest test and TS
