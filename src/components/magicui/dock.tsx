@@ -1,5 +1,5 @@
 'use client';
-import { cn } from '@/lib/utils';
+import { cn } from '@/utils/date.utils';
 import { cva, type VariantProps } from 'class-variance-authority';
 import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion';
 import React, { PropsWithChildren, useRef } from 'react';

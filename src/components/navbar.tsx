@@ -4,7 +4,7 @@ import { buttonVariants } from '@/components/ui/button';
 import { Separator } from '@/components/ui/separator';
 import { Tooltip, TooltipContent, TooltipTrigger } from '@/components/ui/tooltip';
 import { DATA } from '@/data/resume';
-import { cn } from '@/lib/utils';
+import { cn } from '@/utils/date.utils';
 import Link from 'next/link';
 
 export default function Navbar() {
