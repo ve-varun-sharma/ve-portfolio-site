@@ -11,7 +11,8 @@
         "start": "next start",
         "lint": "next lint",
         "test:ci": "jest --config ./src/config/jest/jest.config.js --setupFiles dotenv/config --maxWorkers=2 --ci",
-        "test": "jest --config ./src/config/jest/jest.config.js --setupFiles dotenv/config"
+        "test": "jest --config ./src/config/jest/jest.config.js --setupFiles dotenv/config",
+        "validate-circle-ci": "circleci config validate"
     },
     "jest": {
         "testEnvironment": "jsdom"
