@@ -118,3 +118,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 -   Cleaned up Nav bar
+
+## [0.5.0] - 2024-12-24
+
+### Added
+
+    - Jest test suite framework - base layer of tests added
+    - Tests added
+        - utils
+        - mode toggle component
+        - config jests for frontend and backend
+    - CircleCI for CI/CD
+
+### Changed
+
+        - TypeScript interoperability for jest, Next.JS
