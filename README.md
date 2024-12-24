@@ -100,3 +100,8 @@ These steps depend on building the app successfully first with docker, then tagg
     # Validates the syntax and structure of your Terraform configuration.
    ```
 ````
+
+## TODO
+
+-   Add testing to the app using jest test and TS
+-   Add web3 functionality such as the ability to mint a Ve Coin
