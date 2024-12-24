@@ -1,4 +1,7 @@
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/ve-varun-sharma/ve-portfolio-site/tree/main.svg?style=svg&circle-token=CCIPRJ_3PxWgCWg9Kws7aqjF3tp6W_ee927a4b461636b5dcd7e2c51d617c314abfe185)](https://dl.circleci.com/status-badge/redirect/gh/ve-varun-sharma/ve-portfolio-site/tree/main)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/ve-varun-sharma/ve-portfolio-site/tree/main.svg?style=svg&circle-token=CCIPRJ_3PxWgCWg9Kws7aqjF3tp6W_ee927a4b461636b5dcd7e2c51d617c314abfe185)](https://dl.circleci.com/status-badge/redirect/gh/ve-varun-sharma/ve-portfolio-site/tree/main) [![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)](https://jestjs.io) [![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com) [![Next.JS](https://img.shields.io/badge/next%20js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org)
+[![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white
+)](https://cloud.google.com/?hl=en) [![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)](https://www.terraform.io)
+
 
 # Ve's Portfolio Site
 
