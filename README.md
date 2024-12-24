@@ -103,6 +103,21 @@ These steps depend on building the app successfully first with docker, then tagg
 
 ## Testing
 
+The next.JS app has jest testing across the frontend and backend, and allows for jest tests to run in a Jest DOM and the ability to write them in TypeScript.
+There's also CI/CD configured via CircleCI.
+
+    ```bash
+
+        # Runs the tests across the app and provides a code coverage report
+        pnpm run test
+
+        # Checks if updated circle CI YML file is valid
+        pnpm validate-circle-ci
+
+    ```
+
+### Useful resources on setting up Jest Testing Environments in Next:
+
 -   https://stackoverflow.com/questions/69227566/consider-using-the-jsdom-test-environment
 -   https://stackoverflow.com/questions/72013449/upgrading-jest-to-v29-error-test-environment-jest-environment-jsdom-cannot-be
 -   https://stackoverflow.com/questions/57861187/property-tobeinthedocument-does-not-exist-on-type-matchersany
