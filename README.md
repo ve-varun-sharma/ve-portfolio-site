@@ -1,3 +1,5 @@
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/ve-varun-sharma/ve-portfolio-site/tree/main.svg?style=svg&circle-token=CCIPRJ_3PxWgCWg9Kws7aqjF3tp6W_ee927a4b461636b5dcd7e2c51d617c314abfe185)](https://dl.circleci.com/status-badge/redirect/gh/ve-varun-sharma/ve-portfolio-site/tree/main)
+
 # Ve's Portfolio Site
 
 This is a portfolio site for Ve to highlight his technical career and progress. This web app version is built on top of the portfolio template components from Magic UI.
