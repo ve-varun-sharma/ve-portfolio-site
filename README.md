@@ -1,7 +1,5 @@
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/ve-varun-sharma/ve-portfolio-site/tree/main.svg?style=svg&circle-token=CCIPRJ_3PxWgCWg9Kws7aqjF3tp6W_ee927a4b461636b5dcd7e2c51d617c314abfe185)](https://dl.circleci.com/status-badge/redirect/gh/ve-varun-sharma/ve-portfolio-site/tree/main) [![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)](https://jestjs.io) [![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com) [![Next.JS](https://img.shields.io/badge/next%20js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org)
-[![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white
-)](https://cloud.google.com/?hl=en) [![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)](https://www.terraform.io)
-
+[![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)](https://cloud.google.com/?hl=en) [![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)](https://www.terraform.io)
 
 # Ve's Portfolio Site
 
@@ -108,6 +106,8 @@ These steps depend on building the app successfully first with docker, then tagg
 
 ## Testing
 
+### Unit & Integration Tests
+
 The next.JS app has jest testing across the frontend and backend, and allows for jest tests to run in a Jest DOM and the ability to write them in TypeScript.
 There's also CI/CD configured via CircleCI.
 
@@ -121,13 +121,32 @@ There's also CI/CD configured via CircleCI.
 
     ```
 
-### Useful resources on setting up Jest Testing Environments in Next:
+#### Useful resources on setting up Jest Testing Environments in Next:
 
 -   https://stackoverflow.com/questions/69227566/consider-using-the-jsdom-test-environment
 -   https://stackoverflow.com/questions/72013449/upgrading-jest-to-v29-error-test-environment-jest-environment-jsdom-cannot-be
 -   https://stackoverflow.com/questions/57861187/property-tobeinthedocument-does-not-exist-on-type-matchersany
 
+### E2E Testing
+
+This E2E test suite uses AI to reduce the work and overhead needed.
+
+It uses this [open sourced framework called shortest](https://github.com/anti-work/shortest). You can visit the main website here called [shortest.com](https://shortest.com).
+
+How this works under the hood is that it uses Anthropics new "Computer use" paradigm where it takes screenshots, translates that into tokens, and overlays pixel based coordinates to do tasks - which is pretty cool.
+See more on [this here](https://docs.anthropic.com/en/docs/build-with-claude/computer-use).
+
+#### Running Test Scripts
+
+```bash
+pnpm run ai-e2e-testing
+
+pnpm run ai-e2e-testing:ci
+
+```
+
+You'll want to make sure the --headless flag is on if running said tests in a CI/CD pipeline.
+
 ## TODO
 
--   Add testing to the app using jest test and TS
 -   Add web3 functionality such as the ability to mint a Ve Coin
