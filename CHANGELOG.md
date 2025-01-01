@@ -133,3 +133,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
         - TypeScript interoperability for jest, Next.JS
+
+## [0.6.0] - 2024-12-31
+
+### Added
+
+-   AI based layer E2E testing suite
+    -   Anthropic Model under the hood.
+-   Updated Circle CI to run E2E tests for CI/CD pipeline
