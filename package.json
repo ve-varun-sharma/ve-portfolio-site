@@ -12,7 +12,9 @@
         "lint": "next lint",
         "test:ci": "jest --config ./src/config/jest/jest.config.js --setupFiles dotenv/config --maxWorkers=2 --ci",
         "test": "jest --config ./src/config/jest/jest.config.js --setupFiles dotenv/config",
-        "validate-circle-ci": "circleci config validate"
+        "validate-circle-ci": "circleci config validate",
+        "ai-e2e-test": "npx shortest",
+        "ai-e2e-test:ci": "npx shortest --headless"
     },
     "jest": {
         "testEnvironment": "jsdom"
@@ -48,6 +50,7 @@
         "unified": "^11.0.5"
     },
     "devDependencies": {
+        "@antiwork/shortest": "^0.3.0",
         "@babel/preset-react": "^7.26.3",
         "@jest/globals": "^29.7.0",
         "@swc/jest": "^0.2.37",
