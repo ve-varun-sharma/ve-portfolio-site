@@ -107,12 +107,6 @@ export const DATA = {
                 icon: Icons.email,
                 navbar: false
             }
-            // BlackFinLabs: {
-            //     name: 'Black Fin Labs',
-            //     url: 'https://blackfinlabs.co',
-            //     icon: Icons.fish,
-            //     navbar: true
-            // }
         }
     },
 
