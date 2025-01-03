@@ -141,3 +141,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 -   AI based layer E2E testing suite
     -   Anthropic Model under the hood.
 -   Updated Circle CI to run E2E tests for CI/CD pipeline
+
+## [0.6.1] - 2025-1-3
+
+### Changed
+
+-   Updated activities to include Google Sizzle video.
