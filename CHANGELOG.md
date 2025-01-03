@@ -147,3 +147,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 -   Updated activities to include Google Sizzle video.
+-   Updated resume to include new YGG experience

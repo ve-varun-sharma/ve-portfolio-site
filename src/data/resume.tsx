@@ -118,6 +118,19 @@ export const DATA = {
 
     experience: [
         {
+            company: 'YGG - Yield Guild Games',
+            href: 'https://yieldguild.io',
+            badges: [],
+            location: 'San Franciso, California, United States',
+            title: 'Head of Engineering',
+            logoUrl: '/logos/ygg_logo.png',
+            start: 'December 2024',
+            end: 'Present',
+            description: `
+            Oversee and manage an engineering team of 20 with a total team size of 70. YGG is a pioneer in the play to earn space in Web3. By 2021 YGG was already paying out over USD $1 million weekly in rewards. YGG is backed by prominent funds including A16z, General Venture Capital, Polygon, & Kingsway Capital.
+            `
+        },
+        {
             company: 'BlackFin Labs',
             href: 'https://blackfinlabs.co',
             badges: [],
@@ -125,7 +138,7 @@ export const DATA = {
             title: 'Fractional CTO',
             logoUrl: '/logos/Blackfin_labs_v2_logo_and_name.png',
             start: 'Oct 2024',
-            end: 'Present',
+            end: 'December 2024',
             description: `
             Oversaw & developed an A.I. MVP for a health tech startup proving out the value proposition of the tech & leading to new B2B partnerships.
 Delivered an A.I powered mining data cleaning solution using Gemini 1.5 to a mineral exploration corporation.
@@ -164,7 +177,7 @@ Diagnosed and resolved scaling issues impacting a scale-up startup's Cloud SQL a
                         \n\n Served up audio content to 10+ million end-listeners
                         \n\n Decreased initial downtime of 68% of V1 product, to 98%  by V3 of product
                         \n\n Raised a pre-seed round of $1.3M while responsible for technical due diligence
-                        \n\n Successfully secured opver $750,000 in grant funding including by leading the technical due diligence for the Scientific Research and Experimental Development Tax incentive.
+                        \n\n Successfully secured over $750,000 in grant funding including by leading the technical due diligence for the Scientific Research and Experimental Development Tax incentive.
                             `
         },
         {
