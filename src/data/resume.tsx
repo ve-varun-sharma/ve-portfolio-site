@@ -337,6 +337,22 @@ Diagnosed and resolved scaling issues impacting a scale-up startup's Cloud SQL a
     ],
     activities: [
         {
+            title: 'Google for Startups Accelerator: Demo Day Sizzle Video 🎬',
+            dates: 'Dec 5th, 2024',
+            location: 'Toronto, Ontario 🇨🇦',
+            description:
+                'Attended the Google Demo Day for the Winter Canada Canada cohort as an Alumni buddy! I was able to share my experience via the Google sizzle video!',
+            image: '/logos/gfs_logo.png',
+            mlh: 'https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg',
+            links: [
+                {
+                    title: 'YouTube Video',
+                    icon: <Icons.youtube className="h-4 w-4" />,
+                    href: 'https://www.youtube.com/watch?v=aw9Xi6nILRM'
+                }
+            ]
+        },
+        {
             title: 'Google Developer Fest - Burnaby - Speaker',
             dates: 'Nov 30, 2024',
             location: 'Vancouver, British Columbia 🇨🇦',
