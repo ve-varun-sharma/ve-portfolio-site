@@ -127,7 +127,7 @@ export const DATA = {
             start: 'December 2024',
             end: 'Present',
             description: `
-            Oversee and manage an engineering team of 20 with a total team size of 70. YGG is a pioneer in the play to earn space in Web3. By 2021 YGG was already paying out over USD $1 million weekly in rewards. YGG is backed by prominent funds including A16z, General Venture Capital, Polygon, & Kingsway Capital.
+            Oversee and manage an engineering team of 20 with a total team size of 70. YGG is a pioneer in the play to earn space in Web3. By 2021 YGG was already paying out over USD $1 million weekly in rewards. YGG is backed by prominent funds including Andreessen Horowitz (a16z crypto), Polygon Labs, BITKRAFT Ventures, LongHash Ventures, Animoca Brands.
             `
         },
         {
