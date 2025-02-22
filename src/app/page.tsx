@@ -16,6 +16,7 @@ import { SkillsCloud } from '@/components/ui/Animations/SkillsCloud/skillsCloud'
 import LogoCard from '@/components/ui/Cards/LogoCard/logoCard';
 import { motion } from 'framer-motion';
 import SocialProof from '@/components/ui/Banners/social-proof';
+import Spline from '@splinetool/react-spline/next';
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -63,6 +64,9 @@ export default function Page() {
                     </Markdown>
                 </BlurFade>
             </section>
+            <section id="ai-animation">
+                <Spline scene="https://prod.spline.design/znLUHXNKULpJxI6h/scene.splinecode" />
+            </section>
             <section id="experience">
                 <div className="flex min-h-0 flex-col gap-y-3">
                     <BlurFade delay={BLUR_FADE_DELAY * 5}>
@@ -85,6 +89,7 @@ export default function Page() {
                     ))}
                 </div>
             </section>
+
             <section id="education">
                 <div className="flex min-h-0 flex-col gap-y-3">
                     <BlurFade delay={BLUR_FADE_DELAY * 5}>
