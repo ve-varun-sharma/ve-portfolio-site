@@ -13,7 +13,6 @@ import { EmailButton } from '@/components/ui/Buttons/emailButton';
 import { LandingGallery } from '@/components/ui/Galleries/LandingGallery/landingGallery';
 import TypingAnimation from '@/components/magicui/typing-animation';
 import { SkillsCloud } from '@/components/ui/Animations/SkillsCloud/skillsCloud';
-import LogoCard from '@/components/ui/Cards/LogoCard/logoCard';
 import { motion } from 'framer-motion';
 import SocialProof from '@/components/ui/Banners/social-proof';
 
@@ -26,12 +25,6 @@ export default function Page() {
                 <div className="mx-auto w-full max-w-2xl space-y-8">
                     <div className="gap-2 flex justify-between">
                         <div className="flex-col flex flex-1 space-y-1.5">
-                            {/* <BlurFadeText
-                                delay={BLUR_FADE_DELAY}
-                                className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
-                                yOffset={8}
-                                text={`Hi, I'm ${DATA.name} 👋`}
-                            /> */}
                             <BlurFade delay={BLUR_FADE_DELAY}>
                                 <TypingAnimation
                                     className="text-3xl text-left font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
