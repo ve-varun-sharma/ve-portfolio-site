@@ -14,7 +14,7 @@ export const DATA = {
 
     \n\nHis experience spans cloud architecture, full stack development, applied A.I., and
     leading high-performing teams.\nAll while navigating the competitive startup landscape with proven success,
-    including acceptance into prestigious accelerator programs like [Morgan Stanley (and being listed on the NASDAQ in times Square!🤩)](https://www.linkedin.com/posts/varun-d-sharma_tech-startups-morganstanley-activity-7162874074875056129-sqEm/), Google for Startups, and The XX - all with 1% acceptance rates. 
+    including acceptance into prestigious accelerator programs & being venture backed like [Morgan Stanley (and being listed on the NASDAQ in times Square!🤩)](https://www.linkedin.com/posts/varun-d-sharma_tech-startups-morganstanley-activity-7162874074875056129-sqEm/), Google for Startups, and The XX - all with 1% acceptance rates. 
     \n\nVe continues to be an [ecosystem voice for Google](https://youtu.be/8yzOpUHH78c?t=2557), Collision Conf, the League of Innovators, and other organizations speaking on topics around A.I, Cloud Infrastructure, and technical entrepreneurship around North America. 
 \n\nToday, Ve is the Head of Engineering at [YGG - Yield Guild Games](https://yieldguild.io), the first & largest Web3 crypto Gaming DAO in the world that has built a ~$70M USD Treasury. 
 `,
