@@ -16,6 +16,7 @@ export const DATA = {
     leading high-performing teams.\nAll while navigating the competitive startup landscape with proven success,
     including acceptance into prestigious accelerator programs like [Morgan Stanley (and being listed on the NASDAQ in times Square!🤩)](https://www.linkedin.com/posts/varun-d-sharma_tech-startups-morganstanley-activity-7162874074875056129-sqEm/), Google for Startups, and The XX - all with 1% acceptance rates. 
     \n\nVe continues to be an [ecosystem voice for Google](https://youtu.be/8yzOpUHH78c?t=2557), Collision Conf, the League of Innovators, and other organizations speaking on topics around A.I, Cloud Infrastructure, and technical entrepreneurship around North America. 
+\n\nToday, Ve is the Head of Engineering at [YGG - Yield Guild Games](https://yieldguild.io), the first & largest Web3 crypto Gaming DAO in the world that has built a ~$70M USD Treasury. 
 `,
     avatarUrl: '/me.jpeg',
     skills: [
@@ -121,7 +122,7 @@ export const DATA = {
             start: 'December 2024',
             end: 'Present',
             description: `
-            Oversee and manage an engineering team of 20 with a total team size of 70. YGG is a pioneer in the play to earn space in Web3. By 2021 YGG was already paying out over USD $1 million weekly in rewards. YGG is backed by prominent funds including Andreessen Horowitz (a16z crypto), Polygon Labs, BITKRAFT Ventures, LongHash Ventures, Animoca Brands.
+            Oversee and manage a team of 20 engineers with a total team size of 70. YGG is the first & largest Web3 gaming DAO in the world. By 2021 YGG was already paying out over USD $1 million weekly in rewards. YGG is backed by prominent funds including Andreessen Horowitz (a16z crypto), Polygon Labs, BITKRAFT Ventures, LongHash Ventures, Animoca Brands.
             `
         },
         {
@@ -129,14 +130,13 @@ export const DATA = {
             href: 'https://blackfinlabs.co',
             badges: [],
             location: 'Vancouver, British Columbia',
-            title: 'Fractional CTO',
+            title: 'CEO & Founder',
             logoUrl: '/logos/Blackfin_labs_v2_logo_and_name.png',
             start: 'Oct 2024',
-            end: 'December 2024',
-            description: `
-            Oversaw & developed an A.I. MVP for a health tech startup proving out the value proposition of the tech & leading to new B2B partnerships.
-Delivered an A.I powered mining data cleaning solution using Gemini 1.5 to a mineral exploration corporation.
-Diagnosed and resolved scaling issues impacting a scale-up startup's Cloud SQL and Kubernetes cluster. Recommendations achieved high uptime and low latency for over 20 million daily Cloud SQL calls. Further, I provided cost-saving recommendations to reduce their cloud costs by 30%.
+            end: 'Present',
+            description: ` 
+            BlackFin Labs helps businesses maximize their cloud ROI with expert FinOps (financial operations on the cloud), AI implementations,
+and customized Google Cloud solutions for sustainable growth. We've helped clients save over 35% of their cloud spend, improved their cloud and AI performance, and improved internal developer productivity & operations using AI.
             `
         },
         {
