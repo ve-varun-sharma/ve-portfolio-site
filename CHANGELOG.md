@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
--   Refactor to use Winston logger instead of console.log for all Express routes
+- Refactor to use Winston logger instead of console.log for all Express routes
 
 ## [Released]
 
@@ -15,13 +15,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
--   Project Setup
-    -   Typscript Support
-    -   Jest Testing Support
-    -   Docker Support
-    -   eslint support
-    -   Magic UI, Tailwind, Next set up
--   Update portfolio site with Ve's information on background, activity, history, etc.
+- Project Setup
+    - Typscript Support
+    - Jest Testing Support
+    - Docker Support
+    - eslint support
+    - Magic UI, Tailwind, Next set up
+- Update portfolio site with Ve's information on background, activity, history, etc.
 
 ### Changed
 
@@ -113,11 +113,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
--   New activities
+- New activities
 
 ### Fixed
 
--   Cleaned up Nav bar
+- Cleaned up Nav bar
 
 ## [0.5.0] - 2024-12-24
 
@@ -138,13 +138,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
--   AI based layer E2E testing suite
-    -   Anthropic Model under the hood.
--   Updated Circle CI to run E2E tests for CI/CD pipeline
+- AI based layer E2E testing suite
+    - Anthropic Model under the hood.
+- Updated Circle CI to run E2E tests for CI/CD pipeline
 
 ## [0.6.1] - 2025-1-3
 
 ### Changed
 
--   Updated activities to include Google Sizzle video.
--   Updated resume to include new YGG experience
+- Updated activities to include Google Sizzle video.
+- Updated resume to include new YGG experience
+
+## [0.6.2] - 2025-04-8
+
+### Removed
+
+- Personal email from the portfolio site
