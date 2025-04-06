@@ -101,12 +101,6 @@ export const DATA = {
                 url: 'https://www.instagram.com/vesharma.dev/',
                 icon: Icons.instagram,
                 navbar: true
-            },
-            email: {
-                name: 'Send Email',
-                url: 'mailto:ve@vesharma.dev',
-                icon: Icons.email,
-                navbar: false
             }
         }
     },
