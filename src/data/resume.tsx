@@ -371,6 +371,22 @@ Served 10+ million end-listeners
     ],
     activities: [
         {
+            title: 'Google AI Connect - Public Policy Roundtable with Government - Pannelist',
+            dates: 'June, 2025',
+            location: 'Toronot, ON, Canada 🇨🇦',
+            description:
+                "Another opportunity at Google's Canadian 🇨🇦 HQ for the Google AI Connect roundtable during TorontoTech Week! \n\n We dove deep into the future of AI in Canada with fellow founders, ecosystem builders, and government representatives like Federal MP Karim Bardeesy (Secretary to the Minister of Industry). ",
+            image: '/logos/google_logo.png',
+            mlh: 'https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg',
+            links: [
+                {
+                    title: 'LinkedIn Post',
+                    icon: <Icons.linkedin className="h-4 w-4" />,
+                    href: 'https://www.linkedin.com/feed/update/urn:li:activity:7346262801125953536/'
+                }
+            ]
+        },
+        {
             title: 'Google AI Connect - Public Policy Roundtable - Pannelist',
             dates: 'May, 2025',
             location: 'Vancouver, BC, Canada 🇨🇦',
