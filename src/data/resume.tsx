@@ -371,6 +371,55 @@ Served 10+ million end-listeners
     ],
     activities: [
         {
+            title: 'Google AI Connect - Public Policy Roundtable - Pannelist',
+            dates: 'May, 2025',
+            location: 'Vancouver, BC, Canada 🇨🇦',
+            description:
+                'I had the privilege 🙏 to contribute to discussions on AI policy & regulation with the Google Public Policy team and local BC founders. \n\n My dual background as a CTO of an AI startup, combined with my Political Science degree, offers a unique perspective as we explore how to foster a more equitable and innovative society for all through responsible AI. ',
+            image: '/logos/google_logo.png',
+            mlh: 'https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg',
+            links: [
+                {
+                    title: 'LinkedIn Post',
+                    icon: <Icons.linkedin className="h-4 w-4" />,
+                    href: 'https://www.linkedin.com/feed/update/urn:li:activity:7333118544026509312/'
+                }
+            ]
+        },
+        {
+            title: 'Google i/o - Gemini Product Roundtable with the Gemini Deepmind Team',
+            dates: 'May 2025',
+            location: 'Sunnyvale, CA 🇺🇸',
+            description: `Product Roundtable with Google's DeepMind team to discuss the Gemini models, and how to improve them, and sharing technical and product feedback.`,
+            image: '/logos/google_io_logo_2024.jpg',
+            links: [
+                {
+                    title: 'Website',
+                    icon: <Icons.globe className="h-4 w-4" />,
+                    href: 'https://io.google/2025/'
+                },
+                {
+                    title: 'LinkedIn Post',
+                    icon: <Icons.linkedin className="h-4 w-4" />,
+                    href: 'https://www.linkedin.com/feed/update/urn:li:activity:7331030327135490048/'
+                }
+            ]
+        },
+        {
+            title: 'Vancouver.dev - AI & RAG panel - Speaker ',
+            dates: 'March 2025',
+            location: 'Vancouver, BC, Canada 🇨🇦',
+            description: `Spoke on a panel with other season AI folks to discuss how to strategize with AI and RAG, when and when not to use it, and taming LLM & RAG Costs.`,
+            image: '/logos/vancouver-dev-logo.png',
+            links: [
+                {
+                    title: 'LinkedIn Post',
+                    icon: <Icons.linkedin className="h-4 w-4" />,
+                    href: 'https://www.linkedin.com/feed/update/urn:li:activity:7323330341627138049/'
+                }
+            ]
+        },
+        {
             title: 'Google for Startups Accelerator: Demo Day Sizzle Video 🎬',
             dates: 'Dec 5th, 2024',
             location: 'Toronto, Ontario 🇨🇦',
