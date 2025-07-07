@@ -7,7 +7,6 @@ import { ResumeCard } from '@/components/resume-card';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { Badge } from '@/components/ui/badge';
 import { DATA } from '@/data/resume';
-import Link from 'next/link';
 import Markdown from 'react-markdown';
 import { EmailButton } from '@/components/ui/Buttons/emailButton';
 import { LandingGallery } from '@/components/ui/Galleries/LandingGallery/landingGallery';
@@ -264,7 +263,6 @@ export default function Page() {
                             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Get in Touch</h2>
                             <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                                 Want to chat? Just shoot me an email and I&apos;ll respond usually within 24-48 hours.
-                                <Link href={DATA.contact.social.email.url} className="text-blue-500 hover:underline"></Link>
                             </p>
                             <EmailButton />
                         </div>

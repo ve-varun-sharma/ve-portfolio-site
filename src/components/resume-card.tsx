@@ -75,7 +75,7 @@ export const ResumeCard = ({ logoUrl, altText, title, subtitle, href, badges, pe
                                 duration: 0.7,
                                 ease: [0.16, 1, 0.3, 1]
                             }}
-                            className="mt-2 text-xs sm:text-sm"
+                            className="mt-2 text-xs sm:text-sm whitespace-pre-line"
                         >
                             {description}
                         </motion.div>

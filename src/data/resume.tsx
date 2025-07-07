@@ -116,7 +116,14 @@ export const DATA = {
             start: 'December 2024',
             end: 'Present',
             description: `
-            Oversee and manage a team of 20 engineers with a total team size of 70. YGG is the first & largest Web3 gaming DAO in the world. By 2021 YGG was already paying out over USD $1 million weekly in rewards. YGG is backed by prominent funds including Andreessen Horowitz (a16z crypto), Polygon Labs, BITKRAFT Ventures, LongHash Ventures, Animoca Brands.
+           Oversaw and managed an engineering team of 20 with a total team size of 100. YGG is a pioneer in the play to earn space in Web3. By 2021 YGG was already paying out over USD $1 million weekly in rewards. YGG is backed by prominent funds including Andreessen Horowitz (a16z crypto), Polygon Labs, BITKRAFT Ventures, LongHash Ventures, Animoca Brands, and more
+
+- Drove a 2.5x increase in developer throughput by rebuilding infrastructure, & improving dev productivity by integrating AI into dev workflows
+Spearheaded R&D and prototyping of AI agents to improve on-chain transaction efficiency using stablecoins.
+
+- Successfully executed an engineering re-organization resulting in saving the company nearly in $1M of annual cost savings while increasing throughput 
+
+- Led the Partnership Engineering team, working with the Partnerships team to technically onboard and integrate our product and API with external gaming and Web3 partners running on GCP.
             `
         },
         {
@@ -124,13 +131,19 @@ export const DATA = {
             href: 'https://blackfinlabs.co',
             badges: [],
             location: 'Vancouver, British Columbia',
-            title: 'CEO & Founder',
+            title: 'CEO & Fractional CTO',
             logoUrl: '/logos/Blackfin_labs_v2_logo_and_name.png',
             start: 'Oct 2024',
             end: 'Present',
             description: ` 
-            BlackFin Labs helps businesses maximize their cloud ROI with expert FinOps (financial operations on the cloud), AI implementations,
-and customized Google Cloud solutions for sustainable growth. We've helped clients save over 35% of their cloud spend, improved their cloud and AI performance, and improved internal developer productivity & operations using AI.
+            BlackFin Labs helps businesses maximize their cloud ROI with expertise FinOps (financial operations on the cloud), AI implementations,
+and customized Google Cloud solutions for business growth.
+
+- Functioned in a Cloud Sales / Customer Engineering capacity, directly assisting diverse clients to reduce cloud spend by an average of 30% through GCP Cloud optimizations and infrastructure modernization
+
+- Diagnosed and resolved scaling issues impacting a GCP customer's Cloud SQL and Kubernetes cluster. Recommendations achieved high uptime and low latency for over 20 million daily Cloud SQL calls.
+
+- Implemented AI solutions for clients and provided cloud modernization services.
             `
         },
         {
@@ -143,7 +156,9 @@ and customized Google Cloud solutions for sustainable growth. We've helped clien
             start: 'Sept 2024',
             end: 'Present',
             description: `
-           Leveraging my deep understanding of the company's technology stack and strategic direction, I provide expert guidance on technical strategy, product development, and industry trends. My focus is on supporting the technical team, fostering innovation, and contributing to the company's long-term success.
+           Leveraging my deep understanding of the company's technology stack and strategic direction, I provide expert guidance on technical strategy, product development, and industry trends.
+           
+           My focus is on supporting the technical team, fostering innovation, and contributing to the company's long-term success.
                             `
         },
         {
@@ -155,17 +170,24 @@ and customized Google Cloud solutions for sustainable growth. We've helped clien
             logoUrl: '/logos/adauris_logo_black.jpeg',
             start: 'Oct 2020',
             end: 'Sept 2024',
-            description: `Architected and developed a B2B SaaS platform utilizing Next.JS, Node.JS, and Applied A.I transforming written content into engaging audio experiences.
+            description: `
+            Adauris transforms publications' & content marketers' written assets into customized, podcast-like audio. 
+Adauris works with 200+ publications all around the globe, and are backed by some of the top accelerators & VCs across N.A. including Google, The XX, Antler US, Founders Inc. Alliance of Angels, Cross Cut Ventures, and Morgan Stanely.
 
-                        \n\n Productionized A.I models for audio narration generation and optimize user listening experience, resulting in a 30% increase in user engagement.
-                        \n\n Led and mentored a team of 6 engineers through all stages of the product lifecycle, fostering a culture of collaboration, innovation, and continuous improvement.
-                        \n\n Secured funding from top accelerators and venture capitalists, including Morgan Stanley, Antler US, Alliance of Angels, Founders Inc., Front Row Ventures, Google Cloud Accelerator.
-                        \n\n Reduced GCP Cloud costs by $30,000 annually through strategic infrastructure optimization and resource management
-                        \n\n Scaled infrastructure to handle 120,000,000 API requests per month, ensuring high availability and performance for a growing end-listener base.
-                        \n\n Served up audio content to 10+ million end-listeners
-                        \n\n Decreased initial downtime of 68% of V1 product, to 98%  by V3 of product
-                        \n\n Raised a pre-seed round of $1.3M while responsible for technical due diligence
-                        \n\n Successfully secured over $750,000 in grant funding including by leading the technical due diligence for the Scientific Research and Experimental Development Tax incentive.
+As CTO here are some milestones I’ve been able to achieve:
+
+- Productionized A.I. models for audio generation and optimize user listening experience, resulting in a 40% increase in user engagement.
+Served 10+ million end-listeners
+
+- Functioned as the Lead Sales Engineer, partnering with the sales team to onboard and integrate our B2B SaaS product with our first 100 B2B customers, directly contributing to initial traction and securing over $1M in funding
+
+- Secured $1.3M from top venture capitalists, including Antler US, Alliance of Angels, Founders Inc., CrossCut Ventures, & Morgan Stanley.
+
+- Managed executive stakeholders including our investors, VCs, board of advisors, and the internal company board.
+
+- Reduced GCP Cloud costs by 33% through strategic infrastructure optimization and resource management
+
+- Successfully secured over $750K in R&D grant funding including by leading the technical due diligence for the Scientific Research and Experimental Development Tax incentive.
                             `
         },
         {
@@ -177,7 +199,9 @@ and customized Google Cloud solutions for sustainable growth. We've helped clien
             logoUrl: '/logos/morgan_stanley_logo.png',
             start: 'Sept 2023',
             end: 'March 2024',
-            description: `Adauris was 1 of 23 companies selected from an applicant pool of 7,900 for Morgan Stanley's Inclusive Venture Lab. The program includes both venture investment and programming support. To date, 92 companies have been included in the company. $217M in additional funding to date that companies have received after participating in the Lab. $923M combined valuation to date of companies that have participated in the Lab.`
+            description: `Adauris was 1 of 23 companies selected from an applicant pool of 7,900 for Morgan Stanley's Inclusive Venture Lab. 
+            
+            The program includes both venture investment and programming support. To date, 92 companies have been included in the company. $217M in additional funding to date that companies have received after participating in the Lab. $923M combined valuation to date of companies that have participated in the Lab.`
         },
         {
             company: 'Google',
@@ -188,7 +212,11 @@ and customized Google Cloud solutions for sustainable growth. We've helped clien
             logoUrl: '/logos/google_logo.jpg',
             start: 'April 2022',
             end: 'June 2022',
-            description: `The Google Cloud Accelerator Canada is a three-month accelerator program for cloud-native Canadian SaaS or ML/AI startups. The accelerator is designed to bring the best of Google's programs, products, people and technology to startups doing interesting work in the cloud. In addition to cloud mentorship and technical project support, the accelerator also includes deep dives and workshops focused on product design, customer acquisition and leadership development for startup founders and leaders.`
+            description: `The Google Cloud Accelerator Canada is a three-month accelerator program for cloud-native Canadian SaaS or ML/AI startups. 
+            
+            The accelerator is designed to bring the best of Google's programs, products, people and technology to startups doing interesting work in the cloud. 
+            
+            In addition to cloud mentorship and technical project support, the accelerator also includes deep dives and workshops focused on product design, customer acquisition and leadership development for startup founders and leaders.`
         },
         {
             company: 'League of Innovators',
@@ -199,7 +227,9 @@ and customized Google Cloud solutions for sustainable growth. We've helped clien
             logoUrl: '/logos/loi_logo.jpg',
             start: 'April 2022',
             end: 'Aug 2023',
-            description: `As an Advisory Committee member for the League of Innovators (LOI), we give tactical and strategic input to the LOI team and it's board of directors which includes Ryan Holmes - CEO Hootsuite, Manny Padda - Founder New Avenue Capital, Michele Romanow - Dragons' Den Investor & Co-founder Clearbanc. The advisory committee concerns itself with the core value proposition of League of Innovators for new founders and alumni alike.`
+            description: `As an Advisory Committee member for the League of Innovators (LOI), we give tactical and strategic input to the LOI team and it's board of directors which includes Ryan Holmes - CEO Hootsuite, Manny Padda - Founder New Avenue Capital, Michele Romanow - Dragons' Den Investor & Co-founder Clearbanc. 
+            
+            The advisory committee concerns itself with the core value proposition of League of Innovators for new founders and alumni alike.`
         },
         {
             company: 'XX by WeFunder',
@@ -211,7 +241,9 @@ and customized Google Cloud solutions for sustainable growth. We've helped clien
             start: 'Feb 2021',
             end: 'March 2021',
             description: `The XX is a pre-seed startup accelerator and is a collection of mentors and experts - often successful founders in their own right - who help startups. Our Lead Advisor was Daniel Ha - The Founder and CEO of Disqus.
+
             The XX Team is financially incentivized to help companies in the Wefunder portfolio succeed. The Lead Investor is hired by the XX team for a specific company. 
+            
             The XX is a competitive accelerator with the last batch having a 1% acceptance rate.`
         },
         {
@@ -234,8 +266,11 @@ and customized Google Cloud solutions for sustainable growth. We've helped clien
             logoUrl: '/logos/ubcmun.jpeg',
             start: 'Feb 2020',
             end: 'Jan 2021',
-            description: `UBCMUN is the largest and most prestigious university model United Nations conference in Western Canada. Led and managed a staff of 20+ across 7 teams and a secretariat of 15, ensuring successful planning of the conference with over 1000 delegates.
-                        \n\nImplemented new programs resulting in 25% higher pre-registration rates. `
+            description: `UBCMUN is the largest and most prestigious university model United Nations conference in Western Canada. 
+            
+            Led and managed a staff of 20+ across 7 teams and a secretariat of 15, ensuring successful planning of the conference with over 1000 delegates.
+                       
+            Implemented new programs resulting in 25% higher pre-registration rates. `
         }
     ],
     education: [
@@ -246,10 +281,8 @@ and customized Google Cloud solutions for sustainable growth. We've helped clien
             logoUrl: '/logos/ubc-logo.png',
             start: '2019',
             end: '2021',
-            description: `Activities and Societies: \n\n 
-                        BizTech - Business & Technology\n\n  
-
-
+            description: `Activities and Societies:
+                        BizTech - Business & Technology
                         BOLT - Data Science & Business Tech Bootcamps
                         UX Hub - User Experience and Design 
                         nwPlus - Club for aspiring programmers 
