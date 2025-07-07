@@ -883,6 +883,23 @@ Served 10+ million end-listeners
     ],
     newsArticles: [
         {
+            title: `Get coding help from Gemini Code Assist — now for free`,
+            href: 'https://blog.google/intl/en-ca/products/cloud/get-coding-help-from-gemini-code-assist-now-for-free/',
+            dates: 'February 25, 2025',
+            active: true,
+            description: `Google Cloud metions how Ve, Sr. Tech Advisor and Head of Engineering respectively at both Adauris and Yield Guild Games, how Gemini Code Assist has dramatically accelerated thier development cycles.`,
+            categories: ['Cloud'],
+            links: [
+                {
+                    type: 'Google Blog',
+                    href: 'https://blog.google/intl/en-ca/products/cloud/get-coding-help-from-gemini-code-assist-now-for-free/',
+                    icon: <Icons.globe className="size-3" />
+                }
+            ],
+            image: '/articles/google_cloud.jpeg',
+            video: ''
+        },
+        {
             title: `Canada's Top 100 A.I Startups selected by ALL IN`,
             href: 'https://www.linkedin.com/posts/varun-d-sharma_incredibly-excited-to-meet-some-top-ai-minds-activity-7237554608967929856-RuFe',
             dates: 'September 8, 2024',
