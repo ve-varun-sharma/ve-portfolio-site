@@ -18,7 +18,7 @@ export const DATA = {
     \n\nVe continues to be an ecosystem voice for developers & technical founders in groups such as Microsoft, Google Developer Groups, Vancouver.dev, the League of Innovators, and other organizations speaking on topics around A.I, Dev Tools, Cloud Infrastructure, and technical entrepreneurship around North America. 
 \n\nAfter Adauris, Ve went on to be the Head of Engineering at [YGG - Yield Guild Games](https://yieldguild.io), the first & largest Web3 crypto Gaming DAO in the world that has built a ~$70M USD Treasury. 
 
-\n\nToday, Ve is at Microsoft as a Senior Solution Engineer on the Cloud & AI team focusing on Dev Tools, working on Github Copilot & Agentic DevOps.
+\n\nToday, Ve is at Microsoft as a Solution Engineer on the Cloud & AI team focusing on Dev Tools, working on Github Copilot & Agentic DevOps.
 `,
     avatarUrl: '/me.jpeg',
     skills: [
@@ -107,7 +107,7 @@ export const DATA = {
             href: 'https://azure.microsoft.com/en-us/solutions/devops',
             badges: [],
             location: 'Vancouver, British Columbia, Canada',
-            title: 'Senior Solution Engineer - Cloud & AI - Dev Tools',
+            title: 'Solution Engineer - Cloud & AI - Dev Tools',
             logoUrl: '/logos/microsoft_logo_small.jpg',
             start: 'November 2025',
             end: 'Present',
