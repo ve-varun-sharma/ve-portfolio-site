@@ -18,7 +18,7 @@ export const DATA = {
     \n\nVe continues to be an ecosystem voice for developers & technical founders in groups such as Microsoft, Google Developer Groups, Vancouver.dev, the League of Innovators, and other organizations speaking on topics around A.I, Dev Tools, Cloud Infrastructure, and technical entrepreneurship around North America. 
 \n\nAfter Adauris, Ve went on to be the Head of Engineering at [YGG - Yield Guild Games](https://yieldguild.io), the first & largest Web3 crypto Gaming DAO in the world that has built a ~$70M USD Treasury. 
 
-\n\nToday, Ve is at Microsoft as a Solution Engineer on the Cloud & AI team focusing on Dev Tools, working on Github Copilot & Agentic DevOps.
+\n\nToday, Ve is a Solution Engineer at Microsoft on the Cloud & AI team, where he manages 200+ enterprise accounts across Canada, founded a national GitHub Copilot developer community movement across 8+ cities, and drove adoption of GitHub Copilot at Constellation Software (CSI.TO) reaching 30,000+ developers — all within his first 5 months.
 `,
     avatarUrl: '/me.jpeg',
     skills: [
@@ -111,11 +111,19 @@ export const DATA = {
             logoUrl: '/logos/microsoft_logo_small.jpg',
             start: 'November 2025',
             end: 'Present',
-            description: `Working on Github Copilot & Agentic DevOps. 
+            description: `Driving GitHub Copilot & Agentic DevOps adoption at scale across Canada's enterprise landscape.
 
-I work with developers to help them utilize copilot and Agentic DevOps to accelerate productivity and to build the next generation of AI applications. 
+- Managing 200+ Enterprise accounts nationally across public sector, energy, healthcare, financial services, and technology — executing both bottoms-up developer enablement and top-down executive alignment motions.
 
-As well as working with technical executives to bring copilot to market.`
+- Drove executive buy-in at Constellation Software (CSI.TO) for GitHub Copilot, leading to rollout across 100+ portfolio companies reaching 30,000+ developers — now cited internally as a reference case for large-scale enterprise adoption strategy.
+
+- Founded and scaled GitHub Copilot Dev Days Canada — a national developer community event series across 8+ cities including Vancouver (170+ attendees), Calgary (54 developers from 25+ companies), and Edmonton (sold out with expanded capacity), directly seeding pipeline and accelerating seat adoption city-by-city.
+
+- Enabled Government of Alberta developers to prototype an in-house scheduling system using agentic DevOps, projecting $1M+/year in cost savings versus commercial tooling — demonstrating Copilot as a credible modernization lever in risk-sensitive public sector environments.
+
+- Built trusted developer relationshipswith universities (UofA, SFU, UBC, BCIT, NAIT, SAIT), startup ecosystems, and independent communities — materially increasing Microsoft's developer credibility and attendance nationally.
+
+- Recognized internally as a go-to expert for agentic development patterns, GitHub Copilot model selection & governance, and developer experience strategy.`
         },
         {
             company: 'YGG - Yield Guild Games',
