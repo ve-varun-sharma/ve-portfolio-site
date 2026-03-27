@@ -115,7 +115,7 @@ export const DATA = {
 
 - Managing 200+ Enterprise accounts nationally across public sector, energy, healthcare, and technology — executing both bottoms-up developer enablement and top-down executive alignment motions.
 
-- Drove executive buy-in at Constellation Software (CSI.TO) for GitHub Copilot, leading to rollout across 100+ portfolio companies reaching thousands of developers — now cited internally as a reference case for large-scale enterprise adoption strategy.
+- Drove executive buy-in at Constellation Software (CSI.TO) for GitHub Copilot, leading to rollout across 100+ portfolio companies and reaching thousands of developers.
 
 - Founded and scaled GitHub Copilot Dev Days Canada — a national developer community event series across 8+ cities including Vancouver, Toronto, Calgary, and Edmonton, directly seeding pipeline and accelerating seat adoption city-by-city.
 
@@ -389,7 +389,7 @@ export const DATA = {
     ],
     activities: [
         {
-            title: 'GitHub Copilot Dev Days Vancouver - Founder & Speaker',
+            title: 'GitHub Copilot Dev Days Vancouver - Host & Speaker',
             dates: 'March, 2026',
             location: 'Vancouver, BC, Canada 🇨🇦',
             description:
@@ -424,7 +424,7 @@ export const DATA = {
             ]
         },
         {
-            title: 'GitHub Copilot Dev Days Calgary #1 - Founder & Speaker',
+            title: 'GitHub Copilot Dev Days Calgary #1 - Host & Speaker',
             dates: 'February, 2026',
             location: 'Calgary, AB, Canada 🇨🇦',
             description:
@@ -444,11 +444,11 @@ export const DATA = {
             ]
         },
         {
-            title: 'Microsoft Executive Briefing Center (EBC) - CSI/Volaris - Speaker',
+            title: 'Microsoft Executive Briefing Center (EBC) - CSI - Speaker',
             dates: 'December 9-11, 2025',
             location: 'Redmond, WA, USA 🇺🇸',
             description:
-                'Delivered the closing session on "The Future of Software Development" at my first Microsoft Executive Briefing Center (EBC) — just 4 weeks into the role. Hosted leaders from Constellation Software (CSI), a company with an $89B market cap and 1,800+ portfolio companies. Wove together industry trends with prior experience modernizing the SDLC with AI as a former CTO, sparking conversations about the enormous opportunity for agentic engineering across CSI.',
+                'Delivered the closing session on "The Future of Software Development" at my first Microsoft Executive Briefing Center (EBC) — just 4 weeks into the role. Hosted leaders from Constellation Software Inc. (CSI.TO), a company with an $89B market cap and 1,800+ portfolio companies. Wove together industry trends with prior experience modernizing the SDLC with AI as a former CTO, sparking conversations about the enormous opportunity for agentic engineering across CSI.TO.',
             image: '/logos/microsoft_logo_small.jpg',
             links: [
                 {
