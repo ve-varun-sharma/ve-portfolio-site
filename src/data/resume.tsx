@@ -18,7 +18,7 @@ export const DATA = {
     \n\nVe continues to be an ecosystem voice for developers & technical founders in groups such as Microsoft, Google Developer Groups, Vancouver.dev, the League of Innovators, and other organizations speaking on topics around A.I, Dev Tools, Cloud Infrastructure, and technical entrepreneurship around North America. 
 \n\nAfter Adauris, Ve went on to be the Head of Engineering at [YGG - Yield Guild Games](https://yieldguild.io), the first & largest Web3 crypto Gaming DAO in the world that has built a ~$70M USD Treasury. 
 
-\n\nToday, Ve is a Solution Engineer at Microsoft on the Cloud & AI team, where he manages 200+ enterprise accounts across Canada, founded a national GitHub Copilot developer community movement across 8+ cities, and drove adoption of GitHub Copilot at Constellation Software (CSI.TO) reaching 30,000+ developers — all within his first 5 months.
+\n\nToday, Ve is a Solution Engineer at Microsoft on the Cloud & AI team, where he manages 200+ enterprise accounts across Canada, founded a national GitHub Copilot developer community movement called GitHub Dev Club and later re-branded to [GitHub Copilot Dev Days Canada across 8+ major cities in Canada](https://luma.com/github-copilot-dev-days-canada) 🍁, and drove adoption of GitHub Copilot and Agentic DevOps at scale across Canada's enterprise landscape.
 `,
     avatarUrl: '/me.jpeg',
     skills: [
@@ -113,15 +113,17 @@ export const DATA = {
             end: 'Present',
             description: `Driving GitHub Copilot & Agentic DevOps adoption at scale across Canada's enterprise landscape.
 
-- Managing 200+ Enterprise accounts nationally across public sector, energy, healthcare, financial services, and technology — executing both bottoms-up developer enablement and top-down executive alignment motions.
+- Managing 200+ Enterprise accounts nationally across public sector, energy, healthcare, and technology — executing both bottoms-up developer enablement and top-down executive alignment motions.
 
-- Drove executive buy-in at Constellation Software (CSI.TO) for GitHub Copilot, leading to rollout across 100+ portfolio companies reaching 30,000+ developers — now cited internally as a reference case for large-scale enterprise adoption strategy.
+- Drove executive buy-in at Constellation Software (CSI.TO) for GitHub Copilot, leading to rollout across 100+ portfolio companies reaching thousands of developers — now cited internally as a reference case for large-scale enterprise adoption strategy.
 
-- Founded and scaled GitHub Copilot Dev Days Canada — a national developer community event series across 8+ cities including Vancouver (170+ attendees), Calgary (54 developers from 25+ companies), and Edmonton (sold out with expanded capacity), directly seeding pipeline and accelerating seat adoption city-by-city.
+- Founded and scaled GitHub Copilot Dev Days Canada — a national developer community event series across 8+ cities including Vancouver, Toronto, Calgary, and Edmonton, directly seeding pipeline and accelerating seat adoption city-by-city.
 
-- Enabled Government of Alberta developers to prototype an in-house scheduling system using agentic DevOps, projecting $1M+/year in cost savings versus commercial tooling — demonstrating Copilot as a credible modernization lever in risk-sensitive public sector environments.
+- Added to the GitHub organization, serving as a key bridge between Microsoft and GitHub field teams across Canada — coordinating joint customer engagements, aligning on product roadmaps, and accelerating enterprise adoption of GitHub Copilot, GitHub Enterprise, and GitHub Advanced Security.
 
-- Built trusted developer relationshipswith universities (UofA, SFU, UBC, BCIT, NAIT, SAIT), startup ecosystems, and independent communities — materially increasing Microsoft's developer credibility and attendance nationally.
+- Leading national enterprise developer onboarding motions, partnering with universities (UofA, SFU, UBC, BCIT, NAIT, SAIT) and startup ecosystems to drive GitHub Copilot and Agentic DevOps adoption from the ground up across Canada's next generation of developers.
+
+- Shaping GitHub Copilot adoption across Canada's public sector — unblocking governance, security, and compliance barriers in risk-sensitive environments spanning provincial, municipal, and federal organizations.
 
 - Recognized internally as a go-to expert for agentic development patterns, GitHub Copilot model selection & governance, and developer experience strategy.`
         },
