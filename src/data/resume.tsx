@@ -18,7 +18,7 @@ export const DATA = {
     \n\nVe continues to be an ecosystem voice for developers & technical founders in groups such as Microsoft, Google Developer Groups, Vancouver.dev, the League of Innovators, and other organizations speaking on topics around A.I, Dev Tools, Cloud Infrastructure, and technical entrepreneurship around North America. 
 \n\nAfter Adauris, Ve went on to be the Head of Engineering at [YGG - Yield Guild Games](https://yieldguild.io), the first & largest Web3 crypto Gaming DAO in the world that has built a ~$70M USD Treasury. 
 
-\n\nToday, Ve is a Solution Engineer at Microsoft on the Cloud & AI team, where he manages 200+ enterprise accounts across Canada, founded a national GitHub Copilot developer community movement called GitHub Dev Club and later re-branded to [GitHub Copilot Dev Days Canada across 8+ major cities in Canada](https://luma.com/github-copilot-dev-days-canada) 🍁, and drove adoption of GitHub Copilot and Agentic DevOps at scale across Canada's enterprise landscape.
+\n\nToday, Ve is a Solution Engineer at Microsoft on the Cloud & AI team, where he manages 200+ enterprise accounts across Canada, founded a national GitHub Copilot developer community movement called GitHub Dev Club and later re-branded to [GitHub Copilot Dev Days Canada across 8+ major cities in Canada](https://luma.com/github-copilot-dev-days-canada) 🍁, and helping drive adoption of GitHub Copilot and Agentic DevOps at scale across Canada's enterprise & PubSec landscape.
 `,
     avatarUrl: '/me.jpeg',
     skills: [
@@ -121,11 +121,9 @@ export const DATA = {
 
 - Added to the GitHub organization, serving as a key bridge between Microsoft and GitHub field teams across Canada — coordinating joint customer engagements, aligning on product roadmaps, and accelerating enterprise adoption of GitHub Copilot, GitHub Enterprise, and GitHub Advanced Security.
 
-- Leading national enterprise developer onboarding motions, partnering with universities (UofA, SFU, UBC, BCIT, NAIT, SAIT) and startup ecosystems to drive GitHub Copilot and Agentic DevOps adoption from the ground up across Canada's next generation of developers.
+- Shaping GitHub Copilot adoption across Canada's public sector — unblocking governance, security, and compliance barriers in risk-sensitive environments spanning multiple large provincial and municipal, and federal organizations.
 
-- Shaping GitHub Copilot adoption across Canada's public sector — unblocking governance, security, and compliance barriers in risk-sensitive environments spanning provincial, municipal, and federal organizations.
-
-- Recognized internally as a go-to expert for agentic development patterns, GitHub Copilot model selection & governance, and developer experience strategy.`
+- Recognized internally as a go-to expert for agentic development patterns, GitHub Copilot advanced usage & governance, and developer experience strategy.`
         },
         {
             company: 'YGG - Yield Guild Games',
@@ -390,6 +388,76 @@ export const DATA = {
         }
     ],
     activities: [
+        {
+            title: 'GitHub Copilot Dev Days Vancouver - Founder & Speaker',
+            dates: 'March, 2026',
+            location: 'Vancouver, BC, Canada 🇨🇦',
+            description:
+                'Our biggest GitHub Copilot Dev Days yet — 170+ RSVPs, 200+ demand, and a packed room of engineers, founders, and technical leaders. Enterprise presence from TD Bank, Wells Fargo, Mastercard, Rogers, Best Buy, SAP, Workday, Rivian, HP, and Fraser Health. Digital native and startup presence from Shopify, Instacart, Databricks, Amazon, TikTok, EA Games, and more. The audience skewed heavily toward Senior SWEs, Staff Engineers, Principal Engineers, DevOps leads, CTOs, and founders.',
+            image: '/logos/github_logo.png',
+            links: [
+                {
+                    title: 'LinkedIn Post',
+                    icon: <Icons.linkedin className="h-4 w-4" />,
+                    href: 'https://www.linkedin.com/posts/vevarunsharma_github-copilot-dev-days-vancouver-our-biggest-activity-7437953425130278912-5Aoi'
+                },
+                {
+                    title: 'Event Page',
+                    icon: <Icons.globe className="h-4 w-4" />,
+                    href: 'https://luma.com/github-copilot-dev-days-canada'
+                }
+            ]
+        },
+        {
+            title: 'CSI Volaris Revenue Signals AI Accelerator - Coach',
+            dates: 'March, 2026',
+            location: 'Denver, CO, USA 🇺🇸',
+            description:
+                'Coached at the Constellation Software (CSI) Volaris Revenue Signals Accelerator with 17 companies in the room representing ~$350M in collective revenue. Hands-on agentic development with GitHub and Azure — teams moved from "AI curiosity" to working prototypes. The Microsoft team showed up as coaches, not heroes, following a coaching manifesto focused on customer outcomes and confidence over ego.',
+            image: '/logos/microsoft_logo_small.jpg',
+            links: [
+                {
+                    title: 'LinkedIn Post',
+                    icon: <Icons.linkedin className="h-4 w-4" />,
+                    href: 'https://www.linkedin.com/posts/vevarunsharma_last-week-in-denver-colorado-the-constellation-share-7436848117695569921-tKur'
+                }
+            ]
+        },
+        {
+            title: 'GitHub Copilot Dev Days Calgary #1 - Founder & Speaker',
+            dates: 'February, 2026',
+            location: 'Calgary, AB, Canada 🇨🇦',
+            description:
+                'Launched the first GitHub meetup in Calgary with 55+ developers from 25+ companies. Showed how to build agentic CI/CD pipelines and how to think in the new GitHub platform model — watching developers realize the center of gravity is shifting from the IDE to the platform. This community-led, developer-first group is now expanding across Canada as GitHub Copilot Dev Days.',
+            image: '/logos/github_logo.png',
+            links: [
+                {
+                    title: 'LinkedIn Post',
+                    icon: <Icons.linkedin className="h-4 w-4" />,
+                    href: 'https://www.linkedin.com/posts/vevarunsharma_github-githubcopilot-activity-7433237755167555584-kELM'
+                },
+                {
+                    title: 'Event Page',
+                    icon: <Icons.globe className="h-4 w-4" />,
+                    href: 'https://luma.com/github-copilot-dev-days-canada'
+                }
+            ]
+        },
+        {
+            title: 'Microsoft Executive Briefing Center (EBC) - CSI/Volaris - Speaker',
+            dates: 'December 9-11, 2025',
+            location: 'Redmond, WA, USA 🇺🇸',
+            description:
+                'Delivered the closing session on "The Future of Software Development" at my first Microsoft Executive Briefing Center (EBC) — just 4 weeks into the role. Hosted leaders from Constellation Software (CSI), a company with an $89B market cap and 1,800+ portfolio companies. Wove together industry trends with prior experience modernizing the SDLC with AI as a former CTO, sparking conversations about the enormous opportunity for agentic engineering across CSI.',
+            image: '/logos/microsoft_logo_small.jpg',
+            links: [
+                {
+                    title: 'LinkedIn Post',
+                    icon: <Icons.linkedin className="h-4 w-4" />,
+                    href: 'https://www.linkedin.com/posts/vevarunsharma_ai-github-copilot-activity-7406703038922514433-s77l'
+                }
+            ]
+        },
         {
             title: 'Github Universe 2025 - Attendee',
             dates: 'June, 2025',
