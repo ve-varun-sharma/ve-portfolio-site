@@ -66,7 +66,7 @@ export const DATA = {
     ],
     navbar: [
         { href: '/', icon: HomeIcon, label: 'Home' },
-        { href: 'https://dev.to/@vevarunsharma', icon: NotebookIcon, label: 'Blog' },
+        { href: 'https://blog.vesharma.dev/', icon: NotebookIcon, label: 'Blog' },
         { href: '#projects', icon: CodeIcon, label: 'Projects' },
         { href: 'mailto:ve@vesharma.dev', icon: MailIcon, label: 'Email' }
     ],
