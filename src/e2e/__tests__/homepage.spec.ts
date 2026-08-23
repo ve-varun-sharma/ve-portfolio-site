@@ -16,6 +16,12 @@ test('should open the email client when email button is clicked', async ({ page 
     await expect(emailButton).toHaveAttribute('href', /mailto:ve@vesharma.dev/);
 });
 
+test('should link to the blog site', async ({ page }) => {
+    await page.goto('/');
+    const blogButton = page.locator('a[href="https://blog.vesharma.dev/"]');
+    await expect(blogButton).toHaveCount(1);
+});
+
 test('should show the social proof banner', async ({ page }) => {
     await page.goto('/');
     await expect(page.locator('#backed-by')).toBeVisible();
